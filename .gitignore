@@ -1,0 +1,8 @@
+node_modules/
+dist/
+dist.zip
+web-ext-artifacts/
+scripts/.crawl/
+__pycache__/
+.DS_Store
+.claude/

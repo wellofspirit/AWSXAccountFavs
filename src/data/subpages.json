@@ -1,0 +1,5838 @@
+{
+ "Transform": [
+  {
+   "label": "Users",
+   "path": "/transform/users"
+  },
+  {
+   "label": "Settings",
+   "path": "/transform/settings"
+  },
+  {
+   "label": "Partner agents",
+   "path": "/transform/agents"
+  },
+  {
+   "label": "Connectors",
+   "path": "/transform/connectors"
+  }
+ ],
+ "a2i": [
+  {
+   "label": "Labeling jobs",
+   "path": "/sagemaker/groundtruth#/labeling-jobs"
+  },
+  {
+   "label": "Labeling datasets",
+   "path": "/sagemaker/groundtruth#/labeling-datasets"
+  },
+  {
+   "label": "Labeling workforces",
+   "path": "/sagemaker/groundtruth#/labeling-workforces"
+  },
+  {
+   "label": "Plus",
+   "path": "/sagemaker/groundtruth#/plus"
+  },
+  {
+   "label": "Human review workflows",
+   "path": "/sagemaker/groundtruth#/a2i/human-review-workflows"
+  },
+  {
+   "label": "Worker task templates",
+   "path": "/sagemaker/groundtruth#/a2i/worker-task-templates"
+  },
+  {
+   "label": "Human review workforces",
+   "path": "/sagemaker/groundtruth#/a2i/human-review-workforces"
+  }
+ ],
+ "acm": [
+  {
+   "label": "List certificates",
+   "path": "/acm/welcome#/certificates/list"
+  },
+  {
+   "label": "Request certificate",
+   "path": "/acm/welcome#/certificates/request"
+  },
+  {
+   "label": "Import certificate",
+   "path": "/acm/welcome#/certificates/import"
+  },
+  {
+   "label": "ACME certificates",
+   "path": "/acm/welcome#/acme"
+  },
+  {
+   "label": "Endpoints",
+   "path": "/acm/welcome#/acme/endpoints"
+  }
+ ],
+ "acm-pca": [
+  {
+   "label": "Private certificate authorities",
+   "path": "/acm-pca/home#/certificateAuthorities"
+  }
+ ],
+ "aesop": [
+  {
+   "label": "Quotes and orders",
+   "path": "/elemental-appliances-software/home#/quotelist"
+  },
+  {
+   "label": "Activations",
+   "path": "/elemental-appliances-software/home#/activations"
+  },
+  {
+   "label": "Software downloads",
+   "path": "/elemental-appliances-software/home#/softwaredownloads"
+  },
+  {
+   "label": "AWS Elemental Link",
+   "path": "/elemental-appliances-software/home#/linkhome"
+  },
+  {
+   "label": "Elemental Support Center",
+   "path": "/elemental-appliances-software/home#/supportcenter"
+  },
+  {
+   "label": "Support Case",
+   "path": "/elemental-appliances-software/home#/caselist"
+  },
+  {
+   "label": "Elemental Knowledge",
+   "path": "/elemental-appliances-software/home#/elementalknowledge"
+  }
+ ],
+ "aidevops": [
+  {
+   "label": "Agent Spaces",
+   "path": "/aidevops/home#/agent-spaces"
+  },
+  {
+   "label": "Capability Providers",
+   "path": "/aidevops/home#/services"
+  }
+ ],
+ "amazonbedrock": [
+  {
+   "label": "Quickstart",
+   "path": "/bedrock/home#quickstart"
+  },
+  {
+   "label": "Model catalog",
+   "path": "/bedrock/home#model-catalog"
+  },
+  {
+   "label": "API keys",
+   "path": "/bedrock/home#api-keys"
+  },
+  {
+   "label": "Quotas",
+   "path": "/bedrock/home#model-quotas"
+  },
+  {
+   "label": "Compare models",
+   "path": "/bedrock/home#compare-models"
+  },
+  {
+   "label": "Playground",
+   "path": "/bedrock/home#playground"
+  },
+  {
+   "label": "Watermark detection",
+   "path": "/bedrock/home#watermark-detection"
+  },
+  {
+   "label": "Tokenizer",
+   "path": "/bedrock/home#tokenizer"
+  },
+  {
+   "label": "Inference profiles",
+   "path": "/bedrock/home#inference-profiles"
+  },
+  {
+   "label": "Batch inference",
+   "path": "/bedrock/home#batch-inference"
+  },
+  {
+   "label": "Custom model on-demand",
+   "path": "/bedrock/home#custom-model-deployment"
+  },
+  {
+   "label": "Custom models",
+   "path": "/bedrock/home#custom-models"
+  },
+  {
+   "label": "Prompt router models",
+   "path": "/bedrock/home#prompt-routers"
+  },
+  {
+   "label": "Imported models",
+   "path": "/bedrock/home#import-models"
+  },
+  {
+   "label": "Marketplace model deployments",
+   "path": "/bedrock/home#marketplace-deployments"
+  },
+  {
+   "label": "Knowledge Bases (KB)",
+   "path": "/bedrock/home#knowledge-bases"
+  },
+  {
+   "label": "Flows",
+   "path": "/bedrock/home#flows"
+  },
+  {
+   "label": "Automated Reasoning",
+   "path": "/bedrock/home#automated-reasoning/policies"
+  },
+  {
+   "label": "Guardrails",
+   "path": "/bedrock/home#guardrails"
+  },
+  {
+   "label": "Prompt Management",
+   "path": "/bedrock/home#prompt-management"
+  },
+  {
+   "label": "Advanced Prompt Optimization",
+   "path": "/bedrock/home#prompt-optimization"
+  },
+  {
+   "label": "Data Automation",
+   "path": "/bedrock/home#bda/how-it-works"
+  },
+  {
+   "label": "Agents (classic)",
+   "path": "/bedrock/home#agents"
+  },
+  {
+   "label": "Evaluations",
+   "path": "/bedrock/home#evaluation"
+  },
+  {
+   "label": "Settings",
+   "path": "/bedrock/home#settings"
+  },
+  {
+   "label": "Model access",
+   "path": "/bedrock/home#modelaccess"
+  }
+ ],
+ "amazonmq": [
+  {
+   "label": "Brokers",
+   "path": "/amazon-mq/home#/brokers"
+  },
+  {
+   "label": "Configurations",
+   "path": "/amazon-mq/home#/configurations"
+  }
+ ],
+ "amazonq": [
+  {
+   "label": "Subscriptions",
+   "path": "/amazonq/subscriptions"
+  },
+  {
+   "label": "Amazon Q Business Bundles",
+   "path": "/amazonq/qforbusiness"
+  },
+  {
+   "label": "Amazon Q Developer",
+   "path": "/amazonq/qfordeveloper"
+  }
+ ],
+ "amazonq-business": [
+  {
+   "label": "Applications",
+   "path": "/amazonq/business/applications"
+  }
+ ],
+ "appflow": [
+  {
+   "label": "Connectors",
+   "path": "/appflow/home#/gallery"
+  },
+  {
+   "label": "Flows",
+   "path": "/appflow/home#/list"
+  },
+  {
+   "label": "Connections",
+   "path": "/appflow/home#/connections"
+  },
+  {
+   "label": "Users",
+   "path": "/appflow/home#/users"
+  }
+ ],
+ "appmesh": [
+  {
+   "label": "Meshes",
+   "path": "/appmesh/meshes"
+  }
+ ],
+ "appstudio": [
+  {
+   "label": "Set up",
+   "path": "/appstudio/directory-type"
+  }
+ ],
+ "appsync": [
+  {
+   "label": "APIs",
+   "path": "/appsync/home#/apis"
+  },
+  {
+   "label": "Custom domain names",
+   "path": "/appsync/home#/customdomains"
+  }
+ ],
+ "artifact": [
+  {
+   "label": "Agreements",
+   "path": "/artifact/v2/agreements"
+  },
+  {
+   "label": "Reports",
+   "path": "/artifact/v2/reports"
+  },
+  {
+   "label": "Assurance Assistant",
+   "path": "/artifact/v2/assurance-assistant"
+  },
+  {
+   "label": "Notification",
+   "path": "/artifact/v2/notification"
+  }
+ ],
+ "athena": [
+  {
+   "label": "Query editor tabs",
+   "path": "/athena/home#/query-editor"
+  },
+  {
+   "label": "Notebook editor",
+   "path": "/athena/home#/notebook-editor"
+  },
+  {
+   "label": "Notebook explorer",
+   "path": "/athena/home#/notebook-explorer"
+  },
+  {
+   "label": "Workgroups",
+   "path": "/athena/home#/workgroups"
+  },
+  {
+   "label": "Capacity reservations",
+   "path": "/athena/home#/capacity-reservations"
+  },
+  {
+   "label": "Data sources and catalogues",
+   "path": "/athena/home#/data-sources"
+  },
+  {
+   "label": "Workflows",
+   "path": "/athena/home#/stepfunctions"
+  },
+  {
+   "label": "Recent queries",
+   "path": "/athena/home#/query-editor/history"
+  },
+  {
+   "label": "Saved queries",
+   "path": "/athena/home#/query-editor/saved-queries"
+  },
+  {
+   "label": "Query settings",
+   "path": "/athena/home#/query-editor/settings"
+  }
+ ],
+ "aws-memorydb": [
+  {
+   "label": "Dashboard",
+   "path": "/memorydb/home#/dashboard"
+  },
+  {
+   "label": "Clusters",
+   "path": "/memorydb/home#/clusters"
+  },
+  {
+   "label": "Reserved nodes",
+   "path": "/memorydb/home#/reserved-nodes"
+  },
+  {
+   "label": "Snapshots",
+   "path": "/memorydb/home#/snapshots"
+  },
+  {
+   "label": "Users",
+   "path": "/memorydb/home#/users"
+  },
+  {
+   "label": "Access control lists (ACL)",
+   "path": "/memorydb/home#/acls"
+  },
+  {
+   "label": "Subnet groups",
+   "path": "/memorydb/home#/subnet-groups"
+  },
+  {
+   "label": "Parameter groups",
+   "path": "/memorydb/home#/parameter-groups"
+  },
+  {
+   "label": "Events",
+   "path": "/memorydb/home#/events"
+  },
+  {
+   "label": "Service updates",
+   "path": "/memorydb/home#/service-updates"
+  }
+ ],
+ "aws-parallel-computing-service": [
+  {
+   "label": "Clusters",
+   "path": "/pcs/home#/clusters"
+  },
+  {
+   "label": "Quick Launch",
+   "path": "/pcs/home#/quick-launch"
+  }
+ ],
+ "awsautoscaling": [
+  {
+   "label": "Scaling plans",
+   "path": "/awsautoscaling/home#dashboard"
+  }
+ ],
+ "awsforsap": [
+  {
+   "label": "Dashboard",
+   "path": "/awsforsap/dashboard"
+  },
+  {
+   "label": "Applications",
+   "path": "/awsforsap/applications"
+  }
+ ],
+ "b2bi": [
+  {
+   "label": "Profiles",
+   "path": "/b2bi/home#/profiles"
+  },
+  {
+   "label": "Trading capabilities",
+   "path": "/b2bi/home#/capabilities"
+  },
+  {
+   "label": "Partnerships",
+   "path": "/b2bi/home#/partners"
+  },
+  {
+   "label": "Transformers",
+   "path": "/b2bi/home#/transformers"
+  },
+  {
+   "label": "Quick setup",
+   "path": "/b2bi/home#/quick-setup"
+  }
+ ],
+ "backup": [
+  {
+   "label": "Dashboard",
+   "path": "/backup/home#dashboard"
+  },
+  {
+   "label": "Jobs dashboard",
+   "path": "/backup/home#dashboard/activity"
+  },
+  {
+   "label": "Vaults",
+   "path": "/backup/home#backupvaults"
+  },
+  {
+   "label": "Backup vault locks",
+   "path": "/backup/home#vaultlocks"
+  },
+  {
+   "label": "S3 backup tiering",
+   "path": "/backup/home#tiering"
+  },
+  {
+   "label": "Backup plans",
+   "path": "/backup/home#backupplan"
+  },
+  {
+   "label": "Protected resources",
+   "path": "/backup/home#resources"
+  },
+  {
+   "label": "Search",
+   "path": "/backup/home#search"
+  },
+  {
+   "label": "Jobs",
+   "path": "/backup/home#jobs"
+  },
+  {
+   "label": "Malware protection",
+   "path": "/backup/home#scans"
+  },
+  {
+   "label": "Restore testing",
+   "path": "/backup/home#restoretesting"
+  },
+  {
+   "label": "Legal holds",
+   "path": "/backup/home#legalholds"
+  },
+  {
+   "label": "Settings",
+   "path": "/backup/home#settings"
+  },
+  {
+   "label": "Gateways",
+   "path": "/backup/home#externalresources/gateways"
+  },
+  {
+   "label": "Hypervisors",
+   "path": "/backup/home#externalresources/hypervisors"
+  },
+  {
+   "label": "Virtual machines",
+   "path": "/backup/home#externalresources/virtualmachines"
+  },
+  {
+   "label": "Cross-account monitoring",
+   "path": "/backup/home#organization/monitoring"
+  },
+  {
+   "label": "Backup policies",
+   "path": "/backup/home#organization/policies"
+  },
+  {
+   "label": "Frameworks",
+   "path": "/backup/home#compliance/frameworks"
+  },
+  {
+   "label": "Reports",
+   "path": "/backup/home#compliance/reports"
+  }
+ ],
+ "batch": [
+  {
+   "label": "Dashboard",
+   "path": "/batch/home#/dashboard"
+  },
+  {
+   "label": "Jobs",
+   "path": "/batch/home#/jobs/list"
+  },
+  {
+   "label": "Job definitions",
+   "path": "/batch/home#/job-definition"
+  },
+  {
+   "label": "Job queues",
+   "path": "/batch/home#/queues"
+  },
+  {
+   "label": "Environments",
+   "path": "/batch/home#/environments"
+  },
+  {
+   "label": "Consumable resources",
+   "path": "/batch/home#/consumable-resources"
+  },
+  {
+   "label": "Scheduling policies",
+   "path": "/batch/home#/schedulingPolicies"
+  },
+  {
+   "label": "Wizard",
+   "path": "/batch/home#/wizard"
+  },
+  {
+   "label": "Permissions",
+   "path": "/batch/home#/console-settings/permissions"
+  },
+  {
+   "label": "Jobs",
+   "path": "/batch/home#/console-settings/jobs"
+  },
+  {
+   "label": "Job definition",
+   "path": "/batch/home#/console-settings/job-definitions"
+  },
+  {
+   "label": "Job queues",
+   "path": "/batch/home#/console-settings/job-queues"
+  },
+  {
+   "label": "Compute environment",
+   "path": "/batch/home#/console-settings/compute-environments"
+  },
+  {
+   "label": "Scheduling policies",
+   "path": "/batch/home#/console-settings/scheduling-policy"
+  },
+  {
+   "label": "Reset settings",
+   "path": "/batch/home#/console-settings/reset-settings"
+  },
+  {
+   "label": "Elastic Kubernetes Service (EKS)",
+   "path": "/batch/home#/first-run-eks-on-batch"
+  },
+  {
+   "label": "SageMaker AI",
+   "path": "/batch/home#/first-run-sagemaker-on-batch"
+  },
+  {
+   "label": "Workflow orchestration",
+   "path": "/batch/home#/stepfunctions"
+  }
+ ],
+ "bedrock-agentcore": [
+  {
+   "label": "Registry",
+   "path": "/bedrock-agentcore/registry"
+  },
+  {
+   "label": "Harness",
+   "path": "/bedrock-agentcore/harnesses"
+  },
+  {
+   "label": "Runtime",
+   "path": "/bedrock-agentcore/agents"
+  },
+  {
+   "label": "Gateways",
+   "path": "/bedrock-agentcore/toolsAndGateways"
+  },
+  {
+   "label": "Memory",
+   "path": "/bedrock-agentcore/memory"
+  },
+  {
+   "label": "Policy",
+   "path": "/bedrock-agentcore/policy"
+  },
+  {
+   "label": "Identity",
+   "path": "/bedrock-agentcore/identity"
+  },
+  {
+   "label": "Payments",
+   "path": "/bedrock-agentcore/payments"
+  },
+  {
+   "label": "Browser",
+   "path": "/bedrock-agentcore/browser"
+  },
+  {
+   "label": "Code Interpreter",
+   "path": "/bedrock-agentcore/code"
+  },
+  {
+   "label": "Knowledge Bases (KB)",
+   "path": "/bedrock-agentcore/knowledge-bases"
+  },
+  {
+   "label": "Evaluations",
+   "path": "/bedrock-agentcore/evaluations"
+  },
+  {
+   "label": "Optimisations",
+   "path": "/bedrock-agentcore/optimizations"
+  }
+ ],
+ "bedrock-mantle": [
+  {
+   "label": "Account dashboard",
+   "path": "/bedrock-mantle/usage"
+  },
+  {
+   "label": "Projects",
+   "path": "/bedrock-mantle/projects"
+  },
+  {
+   "label": "API keys",
+   "path": "/bedrock-mantle/api-keys"
+  },
+  {
+   "label": "Settings",
+   "path": "/bedrock-mantle/settings"
+  }
+ ],
+ "billingconductor": [
+  {
+   "label": "Dashboard",
+   "path": "/billingconductor/home#/dashboard"
+  },
+  {
+   "label": "Account inventory",
+   "path": "/billingconductor/home#/accountinventory"
+  },
+  {
+   "label": "Billing transfer inventory",
+   "path": "/billingconductor/home#/transferinventory"
+  },
+  {
+   "label": "Billing groups",
+   "path": "/billingconductor/home#/billinggroups"
+  },
+  {
+   "label": "Pricing configuration",
+   "path": "/billingconductor/home#/pricingplans"
+  },
+  {
+   "label": "Custom line items",
+   "path": "/billingconductor/home#/customlineitems"
+  },
+  {
+   "label": "Margin summary",
+   "path": "/billingconductor/home#/marginreport"
+  },
+  {
+   "label": "Margin details",
+   "path": "/billingconductor/home#/margindetails"
+  }
+ ],
+ "braket": [
+  {
+   "label": "Dashboard",
+   "path": "/braket/home#dashboard"
+  },
+  {
+   "label": "Devices",
+   "path": "/braket/home#/devices"
+  },
+  {
+   "label": "Notebooks",
+   "path": "/braket/home#/notebooks"
+  },
+  {
+   "label": "Hybrid jobs",
+   "path": "/braket/home#/jobs"
+  },
+  {
+   "label": "Quantum tasks",
+   "path": "/braket/home#/tasks"
+  },
+  {
+   "label": "Algorithm library",
+   "path": "/braket/home#/algorithms"
+  },
+  {
+   "label": "Braket Direct",
+   "path": "/braket/home#/direct/dashboard"
+  },
+  {
+   "label": "Permissions and settings",
+   "path": "/braket/home#/permissions"
+  },
+  {
+   "label": "Spending limits",
+   "path": "/braket/home#/spending-limits"
+  },
+  {
+   "label": "Announcements",
+   "path": "/braket/home#/announcements"
+  }
+ ],
+ "capstone": [
+  {
+   "label": "Dashboard",
+   "path": "/devops-guru/dashboard"
+  },
+  {
+   "label": "Insights",
+   "path": "/devops-guru/insight"
+  },
+  {
+   "label": "Settings",
+   "path": "/devops-guru/settings"
+  },
+  {
+   "label": "Analysed resources",
+   "path": "/devops-guru/analyzed-resources"
+  },
+  {
+   "label": "Cost estimator",
+   "path": "/devops-guru/cost-estimator"
+  }
+ ],
+ "cd": [
+  {
+   "label": "Deployments",
+   "path": "/codesuite/codedeploy/deployments"
+  },
+  {
+   "label": "Deployment configurations",
+   "path": "/codesuite/codedeploy/deployment-configs"
+  },
+  {
+   "label": "On-premises instances",
+   "path": "/codesuite/codedeploy/on-premises-instances"
+  }
+ ],
+ "cfo": [
+  {
+   "label": "Stacks",
+   "path": "/cloudformation/home#/stacks"
+  },
+  {
+   "label": "Stack refactors",
+   "path": "/cloudformation/home#/stack-refactors"
+  },
+  {
+   "label": "StackSets",
+   "path": "/cloudformation/home#/stacksets"
+  },
+  {
+   "label": "Exports",
+   "path": "/cloudformation/home#/exports"
+  },
+  {
+   "label": "IaC generator",
+   "path": "/cloudformation/home#/iac-generator"
+  },
+  {
+   "label": "Hooks overview",
+   "path": "/cloudformation/home#/hooks/overview"
+  },
+  {
+   "label": "Invocation summary",
+   "path": "/cloudformation/home#/hooks/invocations"
+  },
+  {
+   "label": "Hooks",
+   "path": "/cloudformation/home#/hooks/list"
+  },
+  {
+   "label": "Public extensions",
+   "path": "/cloudformation/home#/registry/public-extensions"
+  },
+  {
+   "label": "Activated extensions",
+   "path": "/cloudformation/home#/registry/activated-extensions"
+  },
+  {
+   "label": "Publisher",
+   "path": "/cloudformation/home#/registry/publisher"
+  },
+  {
+   "label": "Spotlight",
+   "path": "/cloudformation/home#/spotlight"
+  }
+ ],
+ "cfr": [
+  {
+   "label": "Distributions",
+   "path": "/cloudfront/v4/home#/distributions"
+  },
+  {
+   "label": "Policies",
+   "path": "/cloudfront/v4/home#/policies"
+  },
+  {
+   "label": "Static IPs",
+   "path": "/cloudfront/v4/home#/static-ips"
+  },
+  {
+   "label": "VPC origins",
+   "path": "/cloudfront/v4/home#/vpc-origins"
+  },
+  {
+   "label": "Multi-tenant distributions",
+   "path": "/cloudfront/v4/home#/distributions/multi-tenant"
+  },
+  {
+   "label": "Distribution tenants",
+   "path": "/cloudfront/v4/home#/tenants"
+  },
+  {
+   "label": "Monitoring",
+   "path": "/cloudfront/v4/home#/monitoring"
+  },
+  {
+   "label": "Alarms",
+   "path": "/cloudfront/v4/home#/alarms"
+  },
+  {
+   "label": "Logs",
+   "path": "/cloudfront/v4/home#/logs"
+  },
+  {
+   "label": "Origin access",
+   "path": "/cloudfront/v4/home#/originAccess"
+  },
+  {
+   "label": "Trust stores",
+   "path": "/cloudfront/v4/home#/trust-stores"
+  },
+  {
+   "label": "Field-level encryption",
+   "path": "/cloudfront/v4/home#/encryption"
+  },
+  {
+   "label": "Public keys",
+   "path": "/cloudfront/v4/home#/publickey"
+  },
+  {
+   "label": "Key groups",
+   "path": "/cloudfront/v4/home#/keygrouplist"
+  },
+  {
+   "label": "Resource sharing",
+   "path": "/cloudfront/v4/home#/resource-sharing"
+  },
+  {
+   "label": "Settings",
+   "path": "/cloudfront/v4/home#/settings"
+  }
+ ],
+ "chatbot": [
+  {
+   "label": "Configured clients",
+   "path": "/chatbot/home#/chat-clients"
+  },
+  {
+   "label": "Amazon Chime",
+   "path": "/chatbot/home#/chat-clients/chime/configurations"
+  },
+  {
+   "label": "Roles",
+   "path": "/chatbot/home#/account-settings/roles"
+  },
+  {
+   "label": "Data privacy",
+   "path": "/chatbot/home#/account-settings/data-privacy"
+  },
+  {
+   "label": "Chat applications policies",
+   "path": "/chatbot/home#/orgs-settings/chatbot-policies"
+  }
+ ],
+ "chimesdk": [
+  {
+   "label": "Voice Connectors",
+   "path": "/chime-sdk/home#/voiceConnectors"
+  },
+  {
+   "label": "Voice Connector groups",
+   "path": "/chime-sdk/home#/voiceConnectorGroups"
+  },
+  {
+   "label": "Call detail records",
+   "path": "/chime-sdk/home#/callDetailRecords"
+  },
+  {
+   "label": "SIP media applications",
+   "path": "/chime-sdk/home#/sipMediaApplications"
+  },
+  {
+   "label": "SIP rules",
+   "path": "/chime-sdk/home#/sipRules"
+  },
+  {
+   "label": "Phone number management",
+   "path": "/chime-sdk/home#/numberManagement"
+  },
+  {
+   "label": "Emergency calling",
+   "path": "/chime-sdk/home#/emergencyCalling"
+  },
+  {
+   "label": "Overview",
+   "path": "/chime-sdk/home#/callAnalytics"
+  },
+  {
+   "label": "Configurations",
+   "path": "/chime-sdk/home#/configurations"
+  },
+  {
+   "label": "Voice profile domains",
+   "path": "/chime-sdk/home#/voiceProfileDomains"
+  },
+  {
+   "label": "Using WebRTC media sessions",
+   "path": "/chime-sdk/home#/webRtc"
+  },
+  {
+   "label": "Messaging",
+   "path": "/chime-sdk/home#/messaging"
+  }
+ ],
+ "claude-platform": [
+  {
+   "label": "Access",
+   "path": "/claude-platform/access"
+  },
+  {
+   "label": "API keys",
+   "path": "/claude-platform/api-keys"
+  },
+  {
+   "label": "Quickstart",
+   "path": "/claude-platform/quickstart"
+  },
+  {
+   "label": "Workspaces",
+   "path": "/claude-platform/workspaces"
+  }
+ ],
+ "cleanrooms": [
+  {
+   "label": "Collaborations",
+   "path": "/cleanrooms/home#/collaborations"
+  },
+  {
+   "label": "Configured tables",
+   "path": "/cleanrooms/home#/configured-tables"
+  },
+  {
+   "label": "Custom ML models",
+   "path": "/cleanrooms/home#/custom-modeling"
+  },
+  {
+   "label": "AWS ML models",
+   "path": "/cleanrooms/home#/ml-modeling"
+  }
+ ],
+ "cloudhsm": [
+  {
+   "label": "Clusters",
+   "path": "/cloudhsm/home#/clusters"
+  },
+  {
+   "label": "Backups",
+   "path": "/cloudhsm/home#/backups"
+  }
+ ],
+ "codeartifact": [
+  {
+   "label": "Domains",
+   "path": "/codesuite/codeartifact/domains"
+  },
+  {
+   "label": "Repositories",
+   "path": "/codesuite/codeartifact/repositories"
+  }
+ ],
+ "codebuild": [
+  {
+   "label": "Compute fleets",
+   "path": "/codesuite/codebuild/fleets"
+  },
+  {
+   "label": "Account metrics",
+   "path": "/codesuite/codebuild/metrics"
+  }
+ ],
+ "codecatalyst": [
+  {
+   "label": "Spaces",
+   "path": "/codecatalyst/home#/"
+  },
+  {
+   "label": "IAM Identity Center",
+   "path": "/codecatalyst/home#/sso"
+  },
+  {
+   "label": "Verify space",
+   "path": "/codecatalyst/home#/verify-amazon-codecatalyst-space"
+  }
+ ],
+ "colossus": [
+  {
+   "label": "Data stores",
+   "path": "/healthlake/home#/list-datastores"
+  },
+  {
+   "label": "Run query",
+   "path": "/healthlake/home#/crud"
+  },
+  {
+   "label": "Marketplace",
+   "path": "/healthlake/home#/marketplaces"
+  },
+  {
+   "label": "Jobs",
+   "path": "/healthlake/home#/dta-jobs"
+  },
+  {
+   "label": "Profiles",
+   "path": "/healthlake/home#/dta-profiles"
+  }
+ ],
+ "comprehend": [
+  {
+   "label": "Real-time analysis",
+   "path": "/comprehend/home#/home"
+  },
+  {
+   "label": "Analysis jobs",
+   "path": "/comprehend/home#/analysis"
+  },
+  {
+   "label": "Custom classification",
+   "path": "/comprehend/home#/classification"
+  },
+  {
+   "label": "Custom entity recognition",
+   "path": "/comprehend/home#/entity-recognition"
+  },
+  {
+   "label": "Flywheels",
+   "path": "/comprehend/home#/flywheels"
+  },
+  {
+   "label": "Endpoints",
+   "path": "/comprehend/home#/endpoints"
+  }
+ ],
+ "comprehendmedical": [
+  {
+   "label": "Real-time analysis",
+   "path": "/comprehendmedical/home#try-comprehend-medical"
+  },
+  {
+   "label": "Analysis jobs",
+   "path": "/comprehendmedical/home#medical-analysis"
+  }
+ ],
+ "compute-optimizer": [
+  {
+   "label": "EC2 Auto Scaling groups",
+   "path": "/compute-optimizer/home#/resources-lists/asg"
+  },
+  {
+   "label": "EC2 instances",
+   "path": "/compute-optimizer/home#/resources-lists/ec2"
+  },
+  {
+   "label": "Lambda functions",
+   "path": "/compute-optimizer/home#/resources-lists/lambda"
+  },
+  {
+   "label": "RDS DB instances",
+   "path": "/compute-optimizer/home#/resources-lists/rds"
+  },
+  {
+   "label": "RDS DB storage",
+   "path": "/compute-optimizer/home#/resources-lists/rds/storage"
+  },
+  {
+   "label": "EBS volumes",
+   "path": "/compute-optimizer/home#/resources-lists/ebs"
+  },
+  {
+   "label": "ECS services on Fargate",
+   "path": "/compute-optimizer/home#/resources-lists/ecs-services-fargate"
+  },
+  {
+   "label": "NAT gateways",
+   "path": "/compute-optimizer/home#/resources-lists/idle"
+  }
+ ],
+ "connect-health": [
+  {
+   "label": "Domains",
+   "path": "/connect-health/domains"
+  }
+ ],
+ "cost-management": [
+  {
+   "label": "Home",
+   "path": "/costmanagement/home#/home"
+  },
+  {
+   "label": "Dashboards",
+   "path": "/costmanagement/home#/dashboards"
+  },
+  {
+   "label": "Credits",
+   "path": "/costmanagement/home#/credits"
+  },
+  {
+   "label": "Purchase Orders",
+   "path": "/costmanagement/home#/purchaseorders"
+  },
+  {
+   "label": "Cost Explorer",
+   "path": "/costmanagement/home#/cost-explorer"
+  },
+  {
+   "label": "Cost Explorer Saved Reports",
+   "path": "/costmanagement/home#/reports/overview"
+  },
+  {
+   "label": "Cost Anomaly Detection",
+   "path": "/costmanagement/home#/anomaly-detection"
+  },
+  {
+   "label": "Free Tier",
+   "path": "/costmanagement/home#/freetier"
+  },
+  {
+   "label": "Data Exports",
+   "path": "/costmanagement/home#/bcm-data-exports"
+  },
+  {
+   "label": "Carbon Emissions",
+   "path": "/costmanagement/home#/customer-carbon-footprint-tool"
+  },
+  {
+   "label": "Cost Categories",
+   "path": "/costmanagement/home#/costcategories"
+  },
+  {
+   "label": "Cost Allocation Tags",
+   "path": "/costmanagement/home#/tags"
+  },
+  {
+   "label": "Budgets",
+   "path": "/costmanagement/home#/budgets"
+  },
+  {
+   "label": "Budgets Reports",
+   "path": "/costmanagement/home#/budgets/reports"
+  },
+  {
+   "label": "Pricing Calculator",
+   "path": "/costmanagement/home#/pricing-calculator"
+  },
+  {
+   "label": "Cost Optimization Hub",
+   "path": "/costmanagement/home#/cost-optimization-hub"
+  },
+  {
+   "label": "Overview",
+   "path": "/costmanagement/home#/savings-plans/overview"
+  },
+  {
+   "label": "Inventory",
+   "path": "/costmanagement/home#/savings-plans/inventory"
+  },
+  {
+   "label": "Recommendations",
+   "path": "/costmanagement/home#/savings-plans/recommendations"
+  },
+  {
+   "label": "Purchase Analyzer",
+   "path": "/costmanagement/home#/savings-plans/purchase-analyzer"
+  },
+  {
+   "label": "Utilization Report",
+   "path": "/costmanagement/home#/savings-plans/utilization"
+  },
+  {
+   "label": "Coverage Report",
+   "path": "/costmanagement/home#/savings-plans/coverage"
+  },
+  {
+   "label": "Purchase Savings Plans",
+   "path": "/costmanagement/home#/savings-plans/purchase"
+  },
+  {
+   "label": "Cart",
+   "path": "/costmanagement/home#/savings-plans/cart"
+  },
+  {
+   "label": "Overview",
+   "path": "/costmanagement/home#/ri/dashboard"
+  },
+  {
+   "label": "Recommendations",
+   "path": "/costmanagement/home#/ri/recommendations"
+  },
+  {
+   "label": "Utilization Report",
+   "path": "/costmanagement/home#/ri/utilization"
+  },
+  {
+   "label": "Coverage Report",
+   "path": "/costmanagement/home#/ri/coverage"
+  },
+  {
+   "label": "Billing Preferences",
+   "path": "/costmanagement/home#/preferences"
+  },
+  {
+   "label": "Cost Management Preferences",
+   "path": "/costmanagement/home#/settings"
+  },
+  {
+   "label": "Tax Settings",
+   "path": "/costmanagement/home#/tax-settings"
+  },
+  {
+   "label": "Invoice Configuration",
+   "path": "/costmanagement/home#/invoice-management"
+  },
+  {
+   "label": "Billing Transfer",
+   "path": "/costmanagement/home#/transferbilling"
+  },
+  {
+   "label": "Cost Management Home",
+   "path": "/costmanagement/home#/dashboard"
+  },
+  {
+   "label": "Rightsizing",
+   "path": "/costmanagement/home#/rightsizing"
+  }
+ ],
+ "cp": [
+  {
+   "label": "Account metrics",
+   "path": "/codesuite/codepipeline/metrics"
+  }
+ ],
+ "ctr": [
+  {
+   "label": "Dashboard",
+   "path": "/cloudtrailv2/home#/dashboard"
+  },
+  {
+   "label": "Data event coverage",
+   "path": "/cloudtrailv2/home#/event-coverage"
+  },
+  {
+   "label": "Event history",
+   "path": "/cloudtrailv2/home#/events"
+  },
+  {
+   "label": "Insights",
+   "path": "/cloudtrailv2/home#/insights"
+  },
+  {
+   "label": "Trails",
+   "path": "/cloudtrailv2/home#/trails"
+  },
+  {
+   "label": "Lake",
+   "path": "/cloudtrailv2/home#/lake"
+  },
+  {
+   "label": "Dashboards",
+   "path": "/cloudtrailv2/home#/lake/dashboards/highlights"
+  },
+  {
+   "label": "Query",
+   "path": "/cloudtrailv2/home#/lake/query"
+  },
+  {
+   "label": "Event data stores",
+   "path": "/cloudtrailv2/home#/lake/eventDataStores"
+  },
+  {
+   "label": "Integrations",
+   "path": "/cloudtrailv2/home#/lake/integrations"
+  },
+  {
+   "label": "Settings",
+   "path": "/cloudtrailv2/home#/settings"
+  }
+ ],
+ "cw": [
+  {
+   "label": "Ingestion",
+   "path": "/cloudwatch/home#telemetry-config:"
+  },
+  {
+   "label": "Dashboards",
+   "path": "/cloudwatch/home#dashboards/"
+  },
+  {
+   "label": "Alarms",
+   "path": "/cloudwatch/home#alarmsV2:"
+  },
+  {
+   "label": "Overview",
+   "path": "/cloudwatch/home#investigations/overview"
+  },
+  {
+   "label": "Investigations",
+   "path": "/cloudwatch/home#investigations/list"
+  },
+  {
+   "label": "Configuration",
+   "path": "/cloudwatch/home#investigations/configuration"
+  },
+  {
+   "label": "Model Invocations",
+   "path": "/cloudwatch/home#gen-ai-observability/model-invocation"
+  },
+  {
+   "label": "Bedrock AgentCore",
+   "path": "/cloudwatch/home#gen-ai-observability/agent-core"
+  },
+  {
+   "label": "Services",
+   "path": "/cloudwatch/home#application-signals:services"
+  },
+  {
+   "label": "Application Map",
+   "path": "/cloudwatch/home#application-signals:service-map"
+  },
+  {
+   "label": "Transaction Search",
+   "path": "/cloudwatch/home#logsV2:transaction-search"
+  },
+  {
+   "label": "Service Level Objectives (SLO)",
+   "path": "/cloudwatch/home#application-signals:slo"
+  },
+  {
+   "label": "Synthetics Canaries",
+   "path": "/cloudwatch/home#synthetics:canary/list"
+  },
+  {
+   "label": "RUM",
+   "path": "/cloudwatch/home#rum:dashboard?tab=overview"
+  },
+  {
+   "label": "Traces",
+   "path": "/cloudwatch/home#xray:traces"
+  },
+  {
+   "label": "Trace Map",
+   "path": "/cloudwatch/home#xray:service-map"
+  },
+  {
+   "label": "Application Insights",
+   "path": "/cloudwatch/home#settings:AppInsightsSettings"
+  },
+  {
+   "label": "Container Insights",
+   "path": "/cloudwatch/home#container-insights:"
+  },
+  {
+   "label": "Database Insights",
+   "path": "/cloudwatch/home#database-insights:single-fleet"
+  },
+  {
+   "label": "Lambda Insights",
+   "path": "/cloudwatch/home#lambda-insights:"
+  },
+  {
+   "label": "SageMaker Insights",
+   "path": "/cloudwatch/home#sagemaker-insights:endpoints"
+  },
+  {
+   "label": "EC2 Resource Health",
+   "path": "/cloudwatch/home#resource-health:ec2/map"
+  },
+  {
+   "label": "Log Management",
+   "path": "/cloudwatch/home#logsV2:log-groups"
+  },
+  {
+   "label": "Log Analytics",
+   "path": "/cloudwatch/home#log-analytics"
+  },
+  {
+   "label": "Log Anomalies",
+   "path": "/cloudwatch/home#logsV2:logs-anomalies"
+  },
+  {
+   "label": "Query Studio",
+   "path": "/cloudwatch/home#query-studio"
+  },
+  {
+   "label": "Classic metrics",
+   "path": "/cloudwatch/home#metricsV2"
+  },
+  {
+   "label": "Explorer",
+   "path": "/cloudwatch/home#explorer"
+  },
+  {
+   "label": "Streams",
+   "path": "/cloudwatch/home#metric-streams:streams"
+  },
+  {
+   "label": "Flow monitors",
+   "path": "/cloudwatch/home#network-flow-monitor:"
+  },
+  {
+   "label": "Internet monitors",
+   "path": "/cloudwatch/home#internet-monitor:"
+  },
+  {
+   "label": "Synthetic monitors",
+   "path": "/cloudwatch/home#network-monitor:"
+  },
+  {
+   "label": "Settings",
+   "path": "/cloudwatch/home#settings:"
+  }
+ ],
+ "dataexchange": [
+  {
+   "label": "Entitled data",
+   "path": "/dataexchange/home#/entitled-data"
+  },
+  {
+   "label": "Owned data sets",
+   "path": "/dataexchange/home#/owned/data-sets"
+  },
+  {
+   "label": "Sent data grants",
+   "path": "/dataexchange/home#/data-grants/sent"
+  },
+  {
+   "label": "Received data grants",
+   "path": "/dataexchange/home#/data-grants/received"
+  },
+  {
+   "label": "Data grant settings",
+   "path": "/dataexchange/home#/data-grants/settings"
+  },
+  {
+   "label": "Product catalogue",
+   "path": "/dataexchange/home#/products"
+  },
+  {
+   "label": "My product offers",
+   "path": "/dataexchange/home#/my-product-offers"
+  },
+  {
+   "label": "Active subscriptions",
+   "path": "/dataexchange/home#/subscriptions"
+  },
+  {
+   "label": "Subscription requests",
+   "path": "/dataexchange/home#/subscription-requests"
+  },
+  {
+   "label": "Products",
+   "path": "/dataexchange/home#/owned/products"
+  },
+  {
+   "label": "Send notification",
+   "path": "/dataexchange/home#/owned/send-notification"
+  }
+ ],
+ "datasync": [
+  {
+   "label": "Task executions",
+   "path": "/datasync/home#/history"
+  },
+  {
+   "label": "Tasks",
+   "path": "/datasync/home#/tasks"
+  },
+  {
+   "label": "Locations",
+   "path": "/datasync/home#/locations"
+  },
+  {
+   "label": "Agents",
+   "path": "/datasync/home#/agents"
+  }
+ ],
+ "datatransferterminal": [
+  {
+   "label": "Transfer teams",
+   "path": "/datatransferterminal/transferTeams"
+  },
+  {
+   "label": "Facilities",
+   "path": "/datatransferterminal/facilities"
+  }
+ ],
+ "datazone": [
+  {
+   "label": "Domains",
+   "path": "/datazone/home#/domains"
+  },
+  {
+   "label": "Associated domains",
+   "path": "/datazone/home#/associatedDomains"
+  }
+ ],
+ "datazone-temp": [
+  {
+   "label": "Domains",
+   "path": "/datazone/home#/domains"
+  },
+  {
+   "label": "Associated domains",
+   "path": "/datazone/home#/associatedDomains"
+  }
+ ],
+ "dc": [
+  {
+   "label": "Connections",
+   "path": "/directconnect/v2/home#/connections"
+  },
+  {
+   "label": "Virtual interfaces",
+   "path": "/directconnect/v2/home#/virtual-interfaces"
+  },
+  {
+   "label": "LAGs",
+   "path": "/directconnect/v2/home#/lags"
+  },
+  {
+   "label": "Direct Connect gateways",
+   "path": "/directconnect/v2/home#/dxgateways"
+  },
+  {
+   "label": "Virtual private gateways",
+   "path": "/directconnect/v2/home#/virtual-gateways"
+  },
+  {
+   "label": "Transit gateways",
+   "path": "/directconnect/v2/home#/transit-gateways"
+  },
+  {
+   "label": "AWS Interconnect - multicloud",
+   "path": "/directconnect/v2/home#/multicloud"
+  },
+  {
+   "label": "AWS Interconnect - last mile",
+   "path": "/directconnect/v2/home#/lastmile"
+  }
+ ],
+ "deadline-cloud": [
+  {
+   "label": "Dashboard",
+   "path": "/deadlinecloud/home#/dashboard"
+  },
+  {
+   "label": "Quick start",
+   "path": "/deadlinecloud/home#/deadlinecloud-onboarding"
+  },
+  {
+   "label": "Farms and other resources",
+   "path": "/deadlinecloud/home#/farms"
+  },
+  {
+   "label": "License Endpoints",
+   "path": "/deadlinecloud/home#/license-endpoints"
+  },
+  {
+   "label": "Downloads",
+   "path": "/deadlinecloud/home#/downloads"
+  },
+  {
+   "label": "Thinkbox products",
+   "path": "/deadlinecloud/home#/thinkbox"
+  },
+  {
+   "label": "Floating license portal",
+   "path": "/deadlinecloud/home#/thinkbox/license-portal"
+  }
+ ],
+ "detective": [
+  {
+   "label": "finding group",
+   "path": "/detective/home#findingGroups"
+  }
+ ],
+ "devicedefender": [
+  {
+   "label": "Monitor",
+   "path": "/iot/home#/dashboard"
+  },
+  {
+   "label": "Connect",
+   "path": "/iot/home#/connect-overview"
+  },
+  {
+   "label": "Connect one device",
+   "path": "/iot/home#/connectdevice"
+  },
+  {
+   "label": "Provisioning templates",
+   "path": "/iot/home#/provisioningtemplatehub"
+  },
+  {
+   "label": "Bulk registration",
+   "path": "/iot/home#/activity"
+  },
+  {
+   "label": "Domain configurations",
+   "path": "/iot/home#/domain-configuration-hub"
+  },
+  {
+   "label": "Test",
+   "path": "/iot/home#/test-overview"
+  },
+  {
+   "label": "Device Advisor",
+   "path": "/iot/home#/deviceadvisor/intro"
+  },
+  {
+   "label": "Test suites",
+   "path": "/iot/home#/deviceadvisor/testSuitesHub"
+  },
+  {
+   "label": "Test runs and results",
+   "path": "/iot/home#/deviceadvisor/testRunResultsHub"
+  },
+  {
+   "label": "MQTT test client",
+   "path": "/iot/home#/test"
+  },
+  {
+   "label": "Device Location",
+   "path": "/iot/home#/device-location-test"
+  },
+  {
+   "label": "Thing connectivity",
+   "path": "/iot/home#/test-connectivity"
+  },
+  {
+   "label": "Manage",
+   "path": "/iot/home#/device-management-overview"
+  },
+  {
+   "label": "MQTT client connectivity",
+   "path": "/iot/home#/clientConnectivity"
+  },
+  {
+   "label": "Things",
+   "path": "/iot/home#/thinghub"
+  },
+  {
+   "label": "Thing groups",
+   "path": "/iot/home#/thingGroupHub"
+  },
+  {
+   "label": "Thing types",
+   "path": "/iot/home#/thingtypehub"
+  },
+  {
+   "label": "Fleet metrics",
+   "path": "/iot/home#/fleetMetrics"
+  },
+  {
+   "label": "Greengrass devices",
+   "path": "/iot/home#/greengrassIntro"
+  },
+  {
+   "label": "Core devices",
+   "path": "/iot/home#/greengrass/v2/cores"
+  },
+  {
+   "label": "Components",
+   "path": "/iot/home#/greengrass/v2/components"
+  },
+  {
+   "label": "Deployments",
+   "path": "/iot/home#/greengrass/v2/deployments"
+  },
+  {
+   "label": "Groups (V1)",
+   "path": "/iot/home#/greengrass/grouphub"
+  },
+  {
+   "label": "LPWAN devices",
+   "path": "/iot/home#/wireless/landing"
+  },
+  {
+   "label": "Coverage",
+   "path": "/iot/home#/wireless/network-coverage"
+  },
+  {
+   "label": "LoRaWAN",
+   "path": "/iot/home#/wireless/lorawan"
+  },
+  {
+   "label": "Devices",
+   "path": "/iot/home#/wireless/devices"
+  },
+  {
+   "label": "Gateways",
+   "path": "/iot/home#/wireless/gateways"
+  },
+  {
+   "label": "Multicast groups",
+   "path": "/iot/home#/wireless/multicastGroups"
+  },
+  {
+   "label": "FUOTA tasks",
+   "path": "/iot/home#/wireless/fuotaTasks"
+  },
+  {
+   "label": "Network analyzer",
+   "path": "/iot/home#/wireless/networkAnalyzer"
+  },
+  {
+   "label": "Profiles",
+   "path": "/iot/home#/wireless/profiles"
+  },
+  {
+   "label": "Sidewalk",
+   "path": "/iot/home#/wireless/sidewalk"
+  },
+  {
+   "label": "Devices",
+   "path": "/iot/home#/wireless/sidewalk/devices"
+  },
+  {
+   "label": "Profiles",
+   "path": "/iot/home#/wireless/sidewalk/profiles"
+  },
+  {
+   "label": "Destinations",
+   "path": "/iot/home#/wireless/destinations"
+  },
+  {
+   "label": "Software packages",
+   "path": "/iot/home#/devicePackages"
+  },
+  {
+   "label": "Commands",
+   "path": "/iot/home#/commandHub"
+  }
+ ],
+ "df": [
+  {
+   "label": "Projects",
+   "path": "/devicefarm/home#/mobile/projects"
+  },
+  {
+   "label": "Device Slots",
+   "path": "/devicefarm/home#/mobile/deviceslots"
+  },
+  {
+   "label": "Private Devices",
+   "path": "/devicefarm/home#/mobile/privatedevices"
+  },
+  {
+   "label": "Public Devices",
+   "path": "/devicefarm/home#/mobile/publicdevices"
+  },
+  {
+   "label": "Projects",
+   "path": "/devicefarm/home#/browser/projects"
+  }
+ ],
+ "digito": [
+  {
+   "label": "Dashboard",
+   "path": "/resiliencehub/v2/home#/dashboard"
+  },
+  {
+   "label": "Policies",
+   "path": "/resiliencehub/v2/home#/policies"
+  },
+  {
+   "label": "Systems",
+   "path": "/resiliencehub/v2/home#/systems"
+  },
+  {
+   "label": "Failure modes",
+   "path": "/resiliencehub/v2/home#/failure-modes"
+  },
+  {
+   "label": "Dependencies",
+   "path": "/resiliencehub/v2/home#/dependencies"
+  },
+  {
+   "label": "Assessment reports",
+   "path": "/resiliencehub/v2/home#/assessment-reports"
+  },
+  {
+   "label": "AWS Organizations settings",
+   "path": "/resiliencehub/v2/home#/organization-settings"
+  }
+ ],
+ "discovery": [
+  {
+   "label": "Server list",
+   "path": "/migrationhub/home#/discover/servers"
+  },
+  {
+   "label": "Network",
+   "path": "/migrationhub/home#/discover/servers/network"
+  },
+  {
+   "label": "Import",
+   "path": "/migrationhub/home#/discover/tools/imports/start"
+  },
+  {
+   "label": "View discovery tools",
+   "path": "/migrationhub/home#/discover/tools/options"
+  }
+ ],
+ "dms": [
+  {
+   "label": "Dashboard",
+   "path": "/dms/v2/home#/dashboard"
+  },
+  {
+   "label": "Convert or move to managed",
+   "path": "/dms/v2/home#/migrationProjects/overview"
+  },
+  {
+   "label": "Projects",
+   "path": "/dms/v2/home#/migrationProjects"
+  },
+  {
+   "label": "Data providers",
+   "path": "/dms/v2/home#/dataProviders"
+  },
+  {
+   "label": "Instance profiles",
+   "path": "/dms/v2/home#/instanceProfiles"
+  },
+  {
+   "label": "Migrate or replicate",
+   "path": "/dms/v2/home#/tasks/overview"
+  },
+  {
+   "label": "Tasks",
+   "path": "/dms/v2/home#/tasks"
+  },
+  {
+   "label": "Endpoints",
+   "path": "/dms/v2/home#/endpointList"
+  },
+  {
+   "label": "Provisioned instances",
+   "path": "/dms/v2/home#/replicationInstances"
+  },
+  {
+   "label": "Monitor",
+   "path": "/dms/v2/home#/enhancedMonitoringOverview"
+  },
+  {
+   "label": "Enhanced monitoring",
+   "path": "/dms/v2/home#/enhancedMonitoring"
+  },
+  {
+   "label": "Events",
+   "path": "/dms/v2/home#/EventList"
+  },
+  {
+   "label": "Event subscriptions",
+   "path": "/dms/v2/home#/EventSubscriptionList"
+  },
+  {
+   "label": "Certificates",
+   "path": "/dms/v2/home#/certificate"
+  },
+  {
+   "label": "Subnet groups",
+   "path": "/dms/v2/home#/subnetGroup"
+  },
+  {
+   "label": "Support lifecycle policy",
+   "path": "/dms/v2/home#/lifecyclePolicy"
+  }
+ ],
+ "docdb": [
+  {
+   "label": "Dashboard",
+   "path": "/docdb/home#dashboard"
+  },
+  {
+   "label": "Clusters",
+   "path": "/docdb/home#clusters"
+  },
+  {
+   "label": "Performance Insights",
+   "path": "/docdb/home#performance-insights"
+  },
+  {
+   "label": "Snapshots",
+   "path": "/docdb/home#snapshots"
+  },
+  {
+   "label": "zero-ETL integrations",
+   "path": "/docdb/home#integrations"
+  },
+  {
+   "label": "Subnet groups",
+   "path": "/docdb/home#subnetGroups"
+  },
+  {
+   "label": "Parameter groups",
+   "path": "/docdb/home#parameterGroups"
+  },
+  {
+   "label": "Event Subscriptions",
+   "path": "/docdb/home#eventSubscriptions"
+  },
+  {
+   "label": "Events",
+   "path": "/docdb/home#events"
+  },
+  {
+   "label": "Recommendations",
+   "path": "/docdb/home#recommendations"
+  },
+  {
+   "label": "No-code machine learning",
+   "path": "/docdb/home#machine-learning"
+  }
+ ],
+ "drs": [
+  {
+   "label": "Source servers",
+   "path": "/drs/home#/sourceServers"
+  },
+  {
+   "label": "Recovery instances",
+   "path": "/drs/home#/recoveryInstances"
+  },
+  {
+   "label": "Source networks",
+   "path": "/drs/home#/sourceNetworks"
+  },
+  {
+   "label": "Recovery job history",
+   "path": "/drs/home#/launchHistory"
+  },
+  {
+   "label": "Default replication",
+   "path": "/drs/home#/defaultReplicationSettings"
+  },
+  {
+   "label": "Default launch",
+   "path": "/drs/home#/defaultLaunchSettings"
+  },
+  {
+   "label": "Trusted accounts",
+   "path": "/drs/home#/trustedAccountsSettings"
+  },
+  {
+   "label": "Default post-launch actions",
+   "path": "/drs/home#/defaultPostLaunchActionsSettings"
+  },
+  {
+   "label": "Configure and initialize",
+   "path": "/drs/home#/setup"
+  }
+ ],
+ "ds": [
+  {
+   "label": "Directories",
+   "path": "/directoryservicev2/home#!/directories"
+  },
+  {
+   "label": "Directories shared with me",
+   "path": "/directoryservicev2/home#!/directories-shared-with-me"
+  },
+  {
+   "label": "Directories",
+   "path": "/directoryservicev2/home#!/cloud-directories"
+  },
+  {
+   "label": "Schemas",
+   "path": "/directoryservicev2/home#!/cloud-schemas"
+  }
+ ],
+ "dynamodbv2": [
+  {
+   "label": "Dashboard",
+   "path": "/dynamodbv2/home#dashboard"
+  },
+  {
+   "label": "Tables",
+   "path": "/dynamodbv2/home#tables"
+  },
+  {
+   "label": "Explore items",
+   "path": "/dynamodbv2/home#item-explorer"
+  },
+  {
+   "label": "PartiQL editor",
+   "path": "/dynamodbv2/home#partiql-editor"
+  },
+  {
+   "label": "Backups",
+   "path": "/dynamodbv2/home#list-backups"
+  },
+  {
+   "label": "Exports to S3",
+   "path": "/dynamodbv2/home#exports"
+  },
+  {
+   "label": "Imports from S3",
+   "path": "/dynamodbv2/home#imports"
+  },
+  {
+   "label": "Integrations",
+   "path": "/dynamodbv2/home#integrations"
+  },
+  {
+   "label": "Reserved capacity",
+   "path": "/dynamodbv2/home#reserved-capacity"
+  },
+  {
+   "label": "Settings",
+   "path": "/dynamodbv2/home#preferences?route=ROUTE_DASHBOARD"
+  },
+  {
+   "label": "Clusters",
+   "path": "/dynamodbv2/home#dax-clusters"
+  },
+  {
+   "label": "Subnet groups",
+   "path": "/dynamodbv2/home#dax-subnet-groups-list"
+  },
+  {
+   "label": "Parameter groups",
+   "path": "/dynamodbv2/home#dax-parameter-groups-list"
+  },
+  {
+   "label": "Events",
+   "path": "/dynamodbv2/home#dax-events"
+  }
+ ],
+ "eb": [
+  {
+   "label": "Applications",
+   "path": "/elasticbeanstalk/home#/applications"
+  },
+  {
+   "label": "Environments",
+   "path": "/elasticbeanstalk/home#/environments"
+  },
+  {
+   "label": "Change history",
+   "path": "/elasticbeanstalk/home#/change-history"
+  }
+ ],
+ "ec2": [
+  {
+   "label": "Dashboard",
+   "path": "/ec2/home#Home:"
+  },
+  {
+   "label": "Events",
+   "path": "/ec2/home#Events:"
+  },
+  {
+   "label": "Instances",
+   "path": "/ec2/home#Instances:"
+  },
+  {
+   "label": "Instance Types",
+   "path": "/ec2/home#InstanceTypes:"
+  },
+  {
+   "label": "Launch Templates",
+   "path": "/ec2/home#LaunchTemplates:"
+  },
+  {
+   "label": "Spot Requests",
+   "path": "/ec2/home#SpotInstances:"
+  },
+  {
+   "label": "Savings Plans",
+   "path": "/ec2/home#SavingsPlans:"
+  },
+  {
+   "label": "Reserved Instances",
+   "path": "/ec2/home#ReservedInstances:"
+  },
+  {
+   "label": "Dedicated Hosts",
+   "path": "/ec2/home#Hosts:"
+  },
+  {
+   "label": "Capacity Reservations",
+   "path": "/ec2/home#CapacityReservations:"
+  },
+  {
+   "label": "Capacity Manager",
+   "path": "/ec2/home#CapacityManagerHome:"
+  },
+  {
+   "label": "AMIs",
+   "path": "/ec2/home#Images:"
+  },
+  {
+   "label": "AMI Catalog",
+   "path": "/ec2/home#AMICatalog:"
+  },
+  {
+   "label": "Volumes",
+   "path": "/ec2/home#Volumes:"
+  },
+  {
+   "label": "Snapshots",
+   "path": "/ec2/home#Snapshots:"
+  },
+  {
+   "label": "Lifecycle Manager",
+   "path": "/ec2/home#Lifecycle:"
+  },
+  {
+   "label": "Security Groups",
+   "path": "/ec2/home#SecurityGroups:"
+  },
+  {
+   "label": "Elastic IPs",
+   "path": "/ec2/home#Addresses:"
+  },
+  {
+   "label": "Placement Groups",
+   "path": "/ec2/home#PlacementGroups:"
+  },
+  {
+   "label": "Key Pairs",
+   "path": "/ec2/home#KeyPairs:"
+  },
+  {
+   "label": "Network Interfaces",
+   "path": "/ec2/home#NIC:"
+  },
+  {
+   "label": "Load Balancers",
+   "path": "/ec2/home#LoadBalancers:"
+  },
+  {
+   "label": "Target Groups",
+   "path": "/ec2/home#TargetGroups:"
+  },
+  {
+   "label": "Trust Stores",
+   "path": "/ec2/home#TrustStores:"
+  },
+  {
+   "label": "Auto Scaling Groups",
+   "path": "/ec2/home#AutoScalingGroups:"
+  },
+  {
+   "label": "Settings",
+   "path": "/ec2/home#Settings:"
+  }
+ ],
+ "ec2globalview": [
+  {
+   "label": "Global search",
+   "path": "/awsglobalview/home#GlobalSearch"
+  },
+  {
+   "label": "Regions and Zones",
+   "path": "/awsglobalview/home#RegionsAndZones"
+  },
+  {
+   "label": "Settings",
+   "path": "/awsglobalview/home#Settings"
+  }
+ ],
+ "ecr": [
+  {
+   "label": "Private registry",
+   "path": "/ecr/private-registry"
+  },
+  {
+   "label": "Settings",
+   "path": "/ecr/public-registry"
+  }
+ ],
+ "ecs": [
+  {
+   "label": "Favourites and recents",
+   "path": "/ecs/v2/favorites-recents"
+  },
+  {
+   "label": "Express Mode",
+   "path": "/ecs/v2/express-mode"
+  },
+  {
+   "label": "Clusters",
+   "path": "/ecs/v2/clusters"
+  },
+  {
+   "label": "Namespaces",
+   "path": "/ecs/v2/namespaces"
+  },
+  {
+   "label": "Task definitions",
+   "path": "/ecs/v2/task-definitions"
+  },
+  {
+   "label": "Daemon task definitions",
+   "path": "/ecs/v2/daemon-task-definitions"
+  },
+  {
+   "label": "Account settings",
+   "path": "/ecs/v2/account-settings"
+  }
+ ],
+ "efs": [
+  {
+   "label": "File systems",
+   "path": "/efs/home#/file-systems"
+  },
+  {
+   "label": "Access points",
+   "path": "/efs/home#/access-points"
+  }
+ ],
+ "eks": [
+  {
+   "label": "Dashboard",
+   "path": "/eks/dashboard"
+  },
+  {
+   "label": "Clusters",
+   "path": "/eks/clusters"
+  },
+  {
+   "label": "Console settings",
+   "path": "/eks/settings"
+  },
+  {
+   "label": "Enterprise Subscriptions",
+   "path": "/eks/eks-anywhere"
+  }
+ ],
+ "elc": [
+  {
+   "label": "Dashboard",
+   "path": "/elasticache/home#/dashboard"
+  },
+  {
+   "label": "Valkey caches",
+   "path": "/elasticache/home#/valkey"
+  },
+  {
+   "label": "Memcached caches",
+   "path": "/elasticache/home#/memcached"
+  },
+  {
+   "label": "Redis OSS caches",
+   "path": "/elasticache/home#/redis"
+  },
+  {
+   "label": "Global datastores",
+   "path": "/elasticache/home#/global-datastore"
+  },
+  {
+   "label": "Reserved nodes",
+   "path": "/elasticache/home#/reserved-nodes"
+  },
+  {
+   "label": "Backups",
+   "path": "/elasticache/home#/snapshots"
+  },
+  {
+   "label": "Subnet groups",
+   "path": "/elasticache/home#/subnet-groups"
+  },
+  {
+   "label": "Parameter groups",
+   "path": "/elasticache/home#/parameter-groups"
+  },
+  {
+   "label": "User management",
+   "path": "/elasticache/home#/users"
+  },
+  {
+   "label": "User group management",
+   "path": "/elasticache/home#/user-groups"
+  },
+  {
+   "label": "Events",
+   "path": "/elasticache/home#/events"
+  },
+  {
+   "label": "Service updates",
+   "path": "/elasticache/home#/service-updates"
+  },
+  {
+   "label": "ElastiCache cluster client",
+   "path": "/elasticache/home#/client-download"
+  }
+ ],
+ "elemental-inference": [
+  {
+   "label": "Feeds",
+   "path": "/elemental-inference/home#/feeds"
+  },
+  {
+   "label": "Dictionaries",
+   "path": "/elemental-inference/home#/dictionaries"
+  }
+ ],
+ "elixir": [
+  {
+   "label": "Datasets",
+   "path": "/databrew/home#datasets"
+  },
+  {
+   "label": "Projects",
+   "path": "/databrew/home#projects"
+  },
+  {
+   "label": "Recipes",
+   "path": "/databrew/home#recipes"
+  },
+  {
+   "label": "DQ rules",
+   "path": "/databrew/home#rulesets"
+  },
+  {
+   "label": "Jobs",
+   "path": "/databrew/home#jobs?tab=recipe"
+  }
+ ],
+ "emrv2": [
+  {
+   "label": "EMR Serverless",
+   "path": "/emr/home#/serverless"
+  },
+  {
+   "label": "Clusters",
+   "path": "/emr/home#/clusters"
+  },
+  {
+   "label": "Notebooks and Git repos",
+   "path": "/emr/home#/notebooks"
+  },
+  {
+   "label": "Events",
+   "path": "/emr/home#/events"
+  },
+  {
+   "label": "Block public access",
+   "path": "/emr/home#/bpa"
+  },
+  {
+   "label": "Security configurations",
+   "path": "/emr/home#/securityConfigs"
+  },
+  {
+   "label": "Virtual clusters",
+   "path": "/emr/home#/eks/clusters"
+  },
+  {
+   "label": "Studios",
+   "path": "/emr/home#/studios"
+  },
+  {
+   "label": "Workspaces (notebooks)",
+   "path": "/emr/home#/workspaces"
+  }
+ ],
+ "es": [
+  {
+   "label": "Security",
+   "path": "/aos/home#/opensearch/security"
+  }
+ ],
+ "events": [
+  {
+   "label": "Dashboard",
+   "path": "/events/home#/dashboard"
+  },
+  {
+   "label": "Learn",
+   "path": "/events/home#/learn"
+  },
+  {
+   "label": "Sandbox",
+   "path": "/events/home#/explore"
+  },
+  {
+   "label": "Quick starts",
+   "path": "/events/home#/quick-start"
+  },
+  {
+   "label": "Event buses",
+   "path": "/events/home#/eventbuses"
+  },
+  {
+   "label": "Rules",
+   "path": "/events/home#/rules"
+  },
+  {
+   "label": "Global endpoints",
+   "path": "/events/home#/global-endpoints"
+  },
+  {
+   "label": "Archives",
+   "path": "/events/home#/archives"
+  },
+  {
+   "label": "Replays",
+   "path": "/events/home#/replays"
+  },
+  {
+   "label": "Pipes",
+   "path": "/events/home#/pipes"
+  },
+  {
+   "label": "Scheduled rules (legacy)",
+   "path": "/events/home#/scheduled-rules"
+  },
+  {
+   "label": "Partner event sources",
+   "path": "/events/home#/partners"
+  },
+  {
+   "label": "API destinations",
+   "path": "/events/home#/apidestinations"
+  },
+  {
+   "label": "Connections",
+   "path": "/events/home#/connections"
+  },
+  {
+   "label": "Schemas",
+   "path": "/events/home#/schemas"
+  }
+ ],
+ "evsconsole": [
+  {
+   "label": "Overview",
+   "path": "/evs/home#Overview"
+  },
+  {
+   "label": "Environments",
+   "path": "/evs/home#Environments"
+  }
+ ],
+ "fh": [
+  {
+   "label": "Firehose streams",
+   "path": "/firehose/home#/streams?noRedirect"
+  }
+ ],
+ "finops-agent": [
+  {
+   "label": "AWS FinOps Agent (preview)",
+   "path": "/finops-agent/home#/overview"
+  },
+  {
+   "label": "Agents",
+   "path": "/finops-agent/home#/agents"
+  }
+ ],
+ "firewall-manager": [
+  {
+   "label": "Security policies",
+   "path": "/wafv2/fmsv2/policies"
+  },
+  {
+   "label": "Resource sets",
+   "path": "/wafv2/fmsv2/resourcesets"
+  },
+  {
+   "label": "Application lists",
+   "path": "/wafv2/fmsv2/applicationLists"
+  },
+  {
+   "label": "Protocol lists",
+   "path": "/wafv2/fmsv2/protocolLists"
+  },
+  {
+   "label": "Settings",
+   "path": "/wafv2/fmsv2/settings"
+  }
+ ],
+ "flink": [
+  {
+   "label": "Dashboard",
+   "path": "/flink/home#dashboard"
+  },
+  {
+   "label": "Apache Flink applications",
+   "path": "/flink/home#list/applications"
+  },
+  {
+   "label": "Studio notebooks",
+   "path": "/flink/home#list/notebooks"
+  }
+ ],
+ "forecast": [
+  {
+   "label": "Dataset groups",
+   "path": "/forecast/home#datasetGroups"
+  }
+ ],
+ "frauddetector": [
+  {
+   "label": "Data models explorer",
+   "path": "/frauddetector/home#dataModelsExplorer"
+  },
+  {
+   "label": "Detectors",
+   "path": "/frauddetector/home#getDetectors"
+  },
+  {
+   "label": "Models",
+   "path": "/frauddetector/home#getModels"
+  },
+  {
+   "label": "Events",
+   "path": "/frauddetector/home#getEventTypes"
+  },
+  {
+   "label": "Entities",
+   "path": "/frauddetector/home#entityTypes"
+  },
+  {
+   "label": "Outcomes",
+   "path": "/frauddetector/home#getOutcomes"
+  },
+  {
+   "label": "Labels",
+   "path": "/frauddetector/home#getLabels"
+  },
+  {
+   "label": "Variables",
+   "path": "/frauddetector/home#getVariables"
+  },
+  {
+   "label": "Lists",
+   "path": "/frauddetector/home#getLists"
+  },
+  {
+   "label": "Search past predictions",
+   "path": "/frauddetector/home#auditEvaluations"
+  },
+  {
+   "label": "Batch predictions",
+   "path": "/frauddetector/home#getBatchPredictions"
+  },
+  {
+   "label": "Feature Spotlight",
+   "path": "/frauddetector/home#featureSpotlight"
+  }
+ ],
+ "fsx": [
+  {
+   "label": "File systems",
+   "path": "/fsx/home#file-systems"
+  },
+  {
+   "label": "Volumes",
+   "path": "/fsx/home#volumes"
+  },
+  {
+   "label": "S3 Access Points",
+   "path": "/fsx/home#access-points"
+  },
+  {
+   "label": "File Caches",
+   "path": "/fsx/home#fc/file-caches"
+  },
+  {
+   "label": "Backups",
+   "path": "/fsx/home#backups"
+  },
+  {
+   "label": "Storage virtual machines",
+   "path": "/fsx/home#storage-virtual-machines"
+  },
+  {
+   "label": "Snapshots",
+   "path": "/fsx/home#snapshots"
+  },
+  {
+   "label": "Settings",
+   "path": "/fsx/home#settings"
+  }
+ ],
+ "fusion": [
+  {
+   "label": "Services",
+   "path": "/apprunner/home#/services"
+  },
+  {
+   "label": "Connected accounts",
+   "path": "/apprunner/home#/connections"
+  },
+  {
+   "label": "Network configuration",
+   "path": "/apprunner/home#/networkconfiguration"
+  },
+  {
+   "label": "Auto scaling configuration",
+   "path": "/apprunner/home#/autoscalingconfiguration"
+  }
+ ],
+ "gal": [
+  {
+   "label": "Dashboard",
+   "path": "/gameliftservers/dashboard"
+  },
+  {
+   "label": "Player session lookup",
+   "path": "/gameliftservers/player-session-lookup"
+  },
+  {
+   "label": "Locations",
+   "path": "/gameliftservers/locations"
+  },
+  {
+   "label": "Fleets",
+   "path": "/gameliftservers/anywhere-fleets"
+  },
+  {
+   "label": "Builds",
+   "path": "/gameliftservers/builds"
+  },
+  {
+   "label": "Scripts",
+   "path": "/gameliftservers/scripts"
+  },
+  {
+   "label": "Fleets",
+   "path": "/gameliftservers/ec2-fleets"
+  },
+  {
+   "label": "Group definitions",
+   "path": "/gameliftservers/container-groups"
+  },
+  {
+   "label": "Fleets",
+   "path": "/gameliftservers/container-fleets"
+  },
+  {
+   "label": "Aliases",
+   "path": "/gameliftservers/aliases"
+  },
+  {
+   "label": "Queues",
+   "path": "/gameliftservers/queues"
+  },
+  {
+   "label": "Matchmaking rule sets",
+   "path": "/gameliftservers/matchmaking-rule-sets"
+  },
+  {
+   "label": "Matchmaking configurations",
+   "path": "/gameliftservers/matchmaking-configurations"
+  },
+  {
+   "label": "Game server groups",
+   "path": "/gameliftservers/game-server-groups"
+  },
+  {
+   "label": "Prepare to launch",
+   "path": "/gameliftservers/prepare-to-launch"
+  },
+  {
+   "label": "Instance and service quotas",
+   "path": "/gameliftservers/service-quotas"
+  },
+  {
+   "label": "Spot pricing",
+   "path": "/gameliftservers/spot-pricing"
+  },
+  {
+   "label": "Try a sample game",
+   "path": "/gameliftservers/sample-game"
+  }
+ ],
+ "gameliftstreams": [
+  {
+   "label": "Dashboard",
+   "path": "/gameliftstreams/dashboard"
+  },
+  {
+   "label": "Applications",
+   "path": "/gameliftstreams/applications"
+  },
+  {
+   "label": "Stream groups",
+   "path": "/gameliftstreams/stream-groups"
+  },
+  {
+   "label": "Test stream",
+   "path": "/gameliftstreams/stream"
+  },
+  {
+   "label": "Sessions",
+   "path": "/gameliftstreams/sessions"
+  }
+ ],
+ "globalaccelerator": [
+  {
+   "label": "AWS Global Accelerator",
+   "path": "/globalaccelerator/home#GlobalAcceleratorDashboard:"
+  },
+  {
+   "label": "Cross-account attachments",
+   "path": "/globalaccelerator/home#CrossAccountAttachmentDashboard:"
+  }
+ ],
+ "glue": [
+  {
+   "label": "Workflows",
+   "path": "/glue/home#/v2/etl-configuration/workflows"
+  },
+  {
+   "label": "Data catalog settings",
+   "path": "/glue/home#/v2/security/settings"
+  },
+  {
+   "label": "Security configurations",
+   "path": "/glue/home#/v2/security/security-configurations"
+  }
+ ],
+ "grafana": [
+  {
+   "label": "All workspaces",
+   "path": "/grafana/home#/workspaces"
+  }
+ ],
+ "greengrass": [
+  {
+   "label": "Monitor",
+   "path": "/iot/home#/dashboard"
+  },
+  {
+   "label": "Connect",
+   "path": "/iot/home#/connect-overview"
+  },
+  {
+   "label": "Connect one device",
+   "path": "/iot/home#/connectdevice"
+  },
+  {
+   "label": "Provisioning templates",
+   "path": "/iot/home#/provisioningtemplatehub"
+  },
+  {
+   "label": "Bulk registration",
+   "path": "/iot/home#/activity"
+  },
+  {
+   "label": "Domain configurations",
+   "path": "/iot/home#/domain-configuration-hub"
+  },
+  {
+   "label": "Test",
+   "path": "/iot/home#/test-overview"
+  },
+  {
+   "label": "Device Advisor",
+   "path": "/iot/home#/deviceadvisor/intro"
+  },
+  {
+   "label": "Test suites",
+   "path": "/iot/home#/deviceadvisor/testSuitesHub"
+  },
+  {
+   "label": "Test runs and results",
+   "path": "/iot/home#/deviceadvisor/testRunResultsHub"
+  },
+  {
+   "label": "MQTT test client",
+   "path": "/iot/home#/test"
+  },
+  {
+   "label": "Device Location",
+   "path": "/iot/home#/device-location-test"
+  },
+  {
+   "label": "Thing connectivity",
+   "path": "/iot/home#/test-connectivity"
+  },
+  {
+   "label": "Manage",
+   "path": "/iot/home#/device-management-overview"
+  },
+  {
+   "label": "MQTT client connectivity",
+   "path": "/iot/home#/clientConnectivity"
+  },
+  {
+   "label": "Things",
+   "path": "/iot/home#/thinghub"
+  },
+  {
+   "label": "Thing groups",
+   "path": "/iot/home#/thingGroupHub"
+  },
+  {
+   "label": "Thing types",
+   "path": "/iot/home#/thingtypehub"
+  },
+  {
+   "label": "Fleet metrics",
+   "path": "/iot/home#/fleetMetrics"
+  },
+  {
+   "label": "Greengrass devices",
+   "path": "/iot/home#/greengrassIntro"
+  },
+  {
+   "label": "Core devices",
+   "path": "/iot/home#/greengrass/v2/cores"
+  },
+  {
+   "label": "Components",
+   "path": "/iot/home#/greengrass/v2/components"
+  },
+  {
+   "label": "Deployments",
+   "path": "/iot/home#/greengrass/v2/deployments"
+  },
+  {
+   "label": "Groups (V1)",
+   "path": "/iot/home#/greengrass/grouphub"
+  },
+  {
+   "label": "LPWAN devices",
+   "path": "/iot/home#/wireless/landing"
+  },
+  {
+   "label": "Coverage",
+   "path": "/iot/home#/wireless/network-coverage"
+  },
+  {
+   "label": "LoRaWAN",
+   "path": "/iot/home#/wireless/lorawan"
+  },
+  {
+   "label": "Devices",
+   "path": "/iot/home#/wireless/devices"
+  },
+  {
+   "label": "Gateways",
+   "path": "/iot/home#/wireless/gateways"
+  },
+  {
+   "label": "Multicast groups",
+   "path": "/iot/home#/wireless/multicastGroups"
+  },
+  {
+   "label": "FUOTA tasks",
+   "path": "/iot/home#/wireless/fuotaTasks"
+  },
+  {
+   "label": "Network analyzer",
+   "path": "/iot/home#/wireless/networkAnalyzer"
+  },
+  {
+   "label": "Profiles",
+   "path": "/iot/home#/wireless/profiles"
+  },
+  {
+   "label": "Sidewalk",
+   "path": "/iot/home#/wireless/sidewalk"
+  },
+  {
+   "label": "Devices",
+   "path": "/iot/home#/wireless/sidewalk/devices"
+  },
+  {
+   "label": "Profiles",
+   "path": "/iot/home#/wireless/sidewalk/profiles"
+  },
+  {
+   "label": "Destinations",
+   "path": "/iot/home#/wireless/destinations"
+  },
+  {
+   "label": "Software packages",
+   "path": "/iot/home#/devicePackages"
+  },
+  {
+   "label": "Commands",
+   "path": "/iot/home#/commandHub"
+  }
+ ],
+ "groundstation": [
+  {
+   "label": "Contacts",
+   "path": "/groundstation/home#/contacts/"
+  },
+  {
+   "label": "Ground stations",
+   "path": "/groundstation/home#/ground-stations/"
+  },
+  {
+   "label": "Satellites",
+   "path": "/groundstation/home#/satellites/"
+  },
+  {
+   "label": "Ephemeris",
+   "path": "/groundstation/home#/ephemeris/"
+  },
+  {
+   "label": "Dataflow endpoint groups",
+   "path": "/groundstation/home#/dataflow-endpoint-groups/"
+  },
+  {
+   "label": "Configs",
+   "path": "/groundstation/home#/configs/"
+  },
+  {
+   "label": "Mission profiles",
+   "path": "/groundstation/home#/mission-profiles/"
+  }
+ ],
+ "habanero": [
+  {
+   "label": "Environments",
+   "path": "/finspace/environment"
+  },
+  {
+   "label": "Data providers",
+   "path": "/finspace/data-providers"
+  }
+ ],
+ "hogun": [
+  {
+   "label": "Projects",
+   "path": "/lookoutequipment/home#projects"
+  }
+ ],
+ "home": [
+  {
+   "label": "Recently visited",
+   "path": "/console/services"
+  },
+  {
+   "label": "All applications",
+   "path": "/console/applications"
+  }
+ ],
+ "iam-console": [
+  {
+   "label": "Roles",
+   "path": "/iam/home#/roles"
+  },
+  {
+   "label": "Policies",
+   "path": "/iam/home#/policies"
+  },
+  {
+   "label": "IAM users",
+   "path": "/iam/home#/users"
+  },
+  {
+   "label": "IAM user groups",
+   "path": "/iam/home#/groups"
+  },
+  {
+   "label": "Identity providers",
+   "path": "/iam/home#/identity_providers"
+  },
+  {
+   "label": "Account settings",
+   "path": "/iam/home#/account_settings"
+  },
+  {
+   "label": "Root access management",
+   "path": "/iam/home#/organizations/root-access-management"
+  },
+  {
+   "label": "Temporary delegation requests",
+   "path": "/iam/home#/account-access-requests"
+  },
+  {
+   "label": "Credential report",
+   "path": "/iam/home#/credential_report"
+  },
+  {
+   "label": "Organization activity",
+   "path": "/iam/home#/organizations/ServiceActivity"
+  },
+  {
+   "label": "Service control policies",
+   "path": "/iam/home#/organizations/ServiceControlPolicies"
+  },
+  {
+   "label": "Resource control policies",
+   "path": "/iam/home#/organizations/ResourceControlPolicies"
+  }
+ ],
+ "imagebuilder": [
+  {
+   "label": "Image pipelines",
+   "path": "/imagebuilder/home#/pipelines"
+  },
+  {
+   "label": "Images",
+   "path": "/imagebuilder/home#/images"
+  },
+  {
+   "label": "Components",
+   "path": "/imagebuilder/home#/components"
+  },
+  {
+   "label": "Image recipes",
+   "path": "/imagebuilder/home#/imageRecipes"
+  },
+  {
+   "label": "Container recipes",
+   "path": "/imagebuilder/home#/containerRecipes"
+  },
+  {
+   "label": "Infrastructure configurations",
+   "path": "/imagebuilder/home#/infrastructureConfigurations"
+  },
+  {
+   "label": "Distribution settings",
+   "path": "/imagebuilder/home#/distributionSettings"
+  },
+  {
+   "label": "Image workflows",
+   "path": "/imagebuilder/home#/workflows"
+  },
+  {
+   "label": "Lifecycle policies",
+   "path": "/imagebuilder/home#/lifecyclePolicies"
+  },
+  {
+   "label": "Security findings",
+   "path": "/imagebuilder/home#/securityFindings"
+  },
+  {
+   "label": "Security scanning settings",
+   "path": "/imagebuilder/home#/securityScanningSettings"
+  },
+  {
+   "label": "Subscriptions",
+   "path": "/imagebuilder/home#/subscriptions"
+  },
+  {
+   "label": "Discover products",
+   "path": "/imagebuilder/home#/discover-products"
+  }
+ ],
+ "ins": [
+  {
+   "label": "Inspector",
+   "path": "/inspector/v2/home#/dashboard"
+  },
+  {
+   "label": "Integrations",
+   "path": "/inspector/v2/home#/integrations"
+  }
+ ],
+ "iot": [
+  {
+   "label": "Monitor",
+   "path": "/iot/home#/dashboard"
+  },
+  {
+   "label": "Connect",
+   "path": "/iot/home#/connect-overview"
+  },
+  {
+   "label": "Connect one device",
+   "path": "/iot/home#/connectdevice"
+  },
+  {
+   "label": "Provisioning templates",
+   "path": "/iot/home#/provisioningtemplatehub"
+  },
+  {
+   "label": "Bulk registration",
+   "path": "/iot/home#/activity"
+  },
+  {
+   "label": "Domain configurations",
+   "path": "/iot/home#/domain-configuration-hub"
+  },
+  {
+   "label": "Test",
+   "path": "/iot/home#/test-overview"
+  },
+  {
+   "label": "Device Advisor",
+   "path": "/iot/home#/deviceadvisor/intro"
+  },
+  {
+   "label": "Test suites",
+   "path": "/iot/home#/deviceadvisor/testSuitesHub"
+  },
+  {
+   "label": "Test runs and results",
+   "path": "/iot/home#/deviceadvisor/testRunResultsHub"
+  },
+  {
+   "label": "MQTT test client",
+   "path": "/iot/home#/test"
+  },
+  {
+   "label": "Device Location",
+   "path": "/iot/home#/device-location-test"
+  },
+  {
+   "label": "Thing connectivity",
+   "path": "/iot/home#/test-connectivity"
+  },
+  {
+   "label": "Manage",
+   "path": "/iot/home#/device-management-overview"
+  },
+  {
+   "label": "MQTT client connectivity",
+   "path": "/iot/home#/clientConnectivity"
+  },
+  {
+   "label": "Things",
+   "path": "/iot/home#/thinghub"
+  },
+  {
+   "label": "Thing groups",
+   "path": "/iot/home#/thingGroupHub"
+  },
+  {
+   "label": "Thing types",
+   "path": "/iot/home#/thingtypehub"
+  },
+  {
+   "label": "Fleet metrics",
+   "path": "/iot/home#/fleetMetrics"
+  },
+  {
+   "label": "Greengrass devices",
+   "path": "/iot/home#/greengrassIntro"
+  },
+  {
+   "label": "Core devices",
+   "path": "/iot/home#/greengrass/v2/cores"
+  },
+  {
+   "label": "Components",
+   "path": "/iot/home#/greengrass/v2/components"
+  },
+  {
+   "label": "Deployments",
+   "path": "/iot/home#/greengrass/v2/deployments"
+  },
+  {
+   "label": "Groups (V1)",
+   "path": "/iot/home#/greengrass/grouphub"
+  },
+  {
+   "label": "LPWAN devices",
+   "path": "/iot/home#/wireless/landing"
+  },
+  {
+   "label": "Coverage",
+   "path": "/iot/home#/wireless/network-coverage"
+  },
+  {
+   "label": "LoRaWAN",
+   "path": "/iot/home#/wireless/lorawan"
+  },
+  {
+   "label": "Devices",
+   "path": "/iot/home#/wireless/devices"
+  },
+  {
+   "label": "Gateways",
+   "path": "/iot/home#/wireless/gateways"
+  },
+  {
+   "label": "Multicast groups",
+   "path": "/iot/home#/wireless/multicastGroups"
+  },
+  {
+   "label": "FUOTA tasks",
+   "path": "/iot/home#/wireless/fuotaTasks"
+  },
+  {
+   "label": "Network analyzer",
+   "path": "/iot/home#/wireless/networkAnalyzer"
+  },
+  {
+   "label": "Profiles",
+   "path": "/iot/home#/wireless/profiles"
+  },
+  {
+   "label": "Sidewalk",
+   "path": "/iot/home#/wireless/sidewalk"
+  },
+  {
+   "label": "Devices",
+   "path": "/iot/home#/wireless/sidewalk/devices"
+  },
+  {
+   "label": "Profiles",
+   "path": "/iot/home#/wireless/sidewalk/profiles"
+  },
+  {
+   "label": "Destinations",
+   "path": "/iot/home#/wireless/destinations"
+  },
+  {
+   "label": "Software packages",
+   "path": "/iot/home#/devicePackages"
+  },
+  {
+   "label": "Commands",
+   "path": "/iot/home#/commandHub"
+  }
+ ],
+ "iot-twinmaker": [
+  {
+   "label": "How it works",
+   "path": "/iottwinmaker/home#/how-it-works"
+  },
+  {
+   "label": "Workspaces",
+   "path": "/iottwinmaker/home#/workspaces"
+  },
+  {
+   "label": "Settings",
+   "path": "/iottwinmaker/home#/settings"
+  }
+ ],
+ "iotdm": [
+  {
+   "label": "Manage",
+   "path": "/iot/home#/device-management-overview"
+  },
+  {
+   "label": "Monitor",
+   "path": "/iot/home#/dashboard"
+  },
+  {
+   "label": "Connect",
+   "path": "/iot/home#/connect-overview"
+  },
+  {
+   "label": "Connect one device",
+   "path": "/iot/home#/connectdevice"
+  },
+  {
+   "label": "Provisioning templates",
+   "path": "/iot/home#/provisioningtemplatehub"
+  },
+  {
+   "label": "Bulk registration",
+   "path": "/iot/home#/activity"
+  },
+  {
+   "label": "Domain configurations",
+   "path": "/iot/home#/domain-configuration-hub"
+  },
+  {
+   "label": "Test",
+   "path": "/iot/home#/test-overview"
+  },
+  {
+   "label": "Device Advisor",
+   "path": "/iot/home#/deviceadvisor/intro"
+  },
+  {
+   "label": "Test suites",
+   "path": "/iot/home#/deviceadvisor/testSuitesHub"
+  },
+  {
+   "label": "Test runs and results",
+   "path": "/iot/home#/deviceadvisor/testRunResultsHub"
+  },
+  {
+   "label": "MQTT test client",
+   "path": "/iot/home#/test"
+  },
+  {
+   "label": "Device Location",
+   "path": "/iot/home#/device-location-test"
+  },
+  {
+   "label": "Thing connectivity",
+   "path": "/iot/home#/test-connectivity"
+  },
+  {
+   "label": "MQTT client connectivity",
+   "path": "/iot/home#/clientConnectivity"
+  },
+  {
+   "label": "Things",
+   "path": "/iot/home#/thinghub"
+  },
+  {
+   "label": "Thing groups",
+   "path": "/iot/home#/thingGroupHub"
+  },
+  {
+   "label": "Thing types",
+   "path": "/iot/home#/thingtypehub"
+  },
+  {
+   "label": "Fleet metrics",
+   "path": "/iot/home#/fleetMetrics"
+  },
+  {
+   "label": "Greengrass devices",
+   "path": "/iot/home#/greengrassIntro"
+  },
+  {
+   "label": "Core devices",
+   "path": "/iot/home#/greengrass/v2/cores"
+  },
+  {
+   "label": "Components",
+   "path": "/iot/home#/greengrass/v2/components"
+  },
+  {
+   "label": "Deployments",
+   "path": "/iot/home#/greengrass/v2/deployments"
+  },
+  {
+   "label": "Groups (V1)",
+   "path": "/iot/home#/greengrass/grouphub"
+  },
+  {
+   "label": "LPWAN devices",
+   "path": "/iot/home#/wireless/landing"
+  },
+  {
+   "label": "Coverage",
+   "path": "/iot/home#/wireless/network-coverage"
+  },
+  {
+   "label": "LoRaWAN",
+   "path": "/iot/home#/wireless/lorawan"
+  },
+  {
+   "label": "Devices",
+   "path": "/iot/home#/wireless/devices"
+  },
+  {
+   "label": "Gateways",
+   "path": "/iot/home#/wireless/gateways"
+  },
+  {
+   "label": "Multicast groups",
+   "path": "/iot/home#/wireless/multicastGroups"
+  },
+  {
+   "label": "FUOTA tasks",
+   "path": "/iot/home#/wireless/fuotaTasks"
+  },
+  {
+   "label": "Network analyzer",
+   "path": "/iot/home#/wireless/networkAnalyzer"
+  },
+  {
+   "label": "Profiles",
+   "path": "/iot/home#/wireless/profiles"
+  },
+  {
+   "label": "Sidewalk",
+   "path": "/iot/home#/wireless/sidewalk"
+  },
+  {
+   "label": "Devices",
+   "path": "/iot/home#/wireless/sidewalk/devices"
+  },
+  {
+   "label": "Profiles",
+   "path": "/iot/home#/wireless/sidewalk/profiles"
+  },
+  {
+   "label": "Destinations",
+   "path": "/iot/home#/wireless/destinations"
+  },
+  {
+   "label": "Software packages",
+   "path": "/iot/home#/devicePackages"
+  },
+  {
+   "label": "Commands",
+   "path": "/iot/home#/commandHub"
+  }
+ ],
+ "iotevents": [
+  {
+   "label": "Detector models",
+   "path": "/iotevents/home#/detectormodel"
+  },
+  {
+   "label": "Inputs",
+   "path": "/iotevents/home#/input"
+  },
+  {
+   "label": "Alarm models",
+   "path": "/iotevents/home#/alarmmodel"
+  },
+  {
+   "label": "Settings",
+   "path": "/iotevents/home#/settings/logging"
+  }
+ ],
+ "iotsitewise": [
+  {
+   "label": "Edge gateways",
+   "path": "/iotsitewise/home#/gateway"
+  },
+  {
+   "label": "Models",
+   "path": "/iotsitewise/home#/models"
+  },
+  {
+   "label": "Assets",
+   "path": "/iotsitewise/home#/assets"
+  },
+  {
+   "label": "Advanced search",
+   "path": "/iotsitewise/home#/assets-advanced-search"
+  },
+  {
+   "label": "Computation models",
+   "path": "/iotsitewise/home#/computation-models?"
+  },
+  {
+   "label": "Bulk operations",
+   "path": "/iotsitewise/home#/metadata-transfer-jobs"
+  },
+  {
+   "label": "Data streams",
+   "path": "/iotsitewise/home#/data-streams"
+  },
+  {
+   "label": "Portals",
+   "path": "/iotsitewise/home#/portals"
+  },
+  {
+   "label": "Assistant",
+   "path": "/iotsitewise/home#/assistant"
+  },
+  {
+   "label": "Logging options",
+   "path": "/iotsitewise/home#/logging-options"
+  },
+  {
+   "label": "Encryption",
+   "path": "/iotsitewise/home#/encryption"
+  },
+  {
+   "label": "Storage",
+   "path": "/iotsitewise/home#/storage"
+  },
+  {
+   "label": "Data Ingestion",
+   "path": "/iotsitewise/home#/data-ingestion"
+  }
+ ],
+ "ivs": [
+  {
+   "label": "Overview",
+   "path": "/ivs/overview"
+  },
+  {
+   "label": "Channels",
+   "path": "/ivs/channels"
+  },
+  {
+   "label": "Live channels",
+   "path": "/ivs/live-channels"
+  },
+  {
+   "label": "Recording configurations",
+   "path": "/ivs/recording-configurations"
+  },
+  {
+   "label": "Ad configurations",
+   "path": "/ivs/ad-configurations"
+  },
+  {
+   "label": "Playback keys",
+   "path": "/ivs/playback-keys"
+  },
+  {
+   "label": "Playback restriction policies",
+   "path": "/ivs/playback-restriction-policies"
+  },
+  {
+   "label": "Quotas",
+   "path": "/ivs/quotas"
+  }
+ ],
+ "kendra": [
+  {
+   "label": "Indexes",
+   "path": "/kendra/home#/indexes"
+  }
+ ],
+ "keyspaces": [
+  {
+   "label": "Dashboard",
+   "path": "/keyspaces/v2/home#dashboard"
+  },
+  {
+   "label": "Keyspaces",
+   "path": "/keyspaces/v2/home#keyspaces"
+  },
+  {
+   "label": "Tables",
+   "path": "/keyspaces/v2/home#tables"
+  }
+ ],
+ "ki": [
+  {
+   "label": "Dashboard",
+   "path": "/kinesis/home#dashboard"
+  },
+  {
+   "label": "Settings",
+   "path": "/kinesis/home#settings"
+  },
+  {
+   "label": "Data streams",
+   "path": "/kinesis/home#streams"
+  },
+  {
+   "label": "CloudFormation templates",
+   "path": "/kinesis/home#templates"
+  }
+ ],
+ "kms": [
+  {
+   "label": "AWS managed keys",
+   "path": "/kms/home#/kms/defaultKeys"
+  },
+  {
+   "label": "Customer-managed keys",
+   "path": "/kms/home#/kms/keys"
+  },
+  {
+   "label": "AWS CloudHSM key stores",
+   "path": "/kms/home#/kms/custom-key-stores/cloudhsm"
+  },
+  {
+   "label": "External key stores",
+   "path": "/kms/home#/kms/custom-key-stores/external"
+  }
+ ],
+ "lakeformation": [
+  {
+   "label": "Dashboard",
+   "path": "/lakeformation/home#dashboard"
+  },
+  {
+   "label": "Catalogs",
+   "path": "/lakeformation/home#catalogs"
+  },
+  {
+   "label": "Databases",
+   "path": "/lakeformation/home#databases"
+  },
+  {
+   "label": "Tables and Materialized Views",
+   "path": "/lakeformation/home#tables"
+  },
+  {
+   "label": "Views",
+   "path": "/lakeformation/home#views"
+  },
+  {
+   "label": "Data filters",
+   "path": "/lakeformation/home#data-filters"
+  },
+  {
+   "label": "Data sharing",
+   "path": "/lakeformation/home#data-sharing"
+  },
+  {
+   "label": "Data permissions",
+   "path": "/lakeformation/home#permissions-list"
+  },
+  {
+   "label": "LF-Tags and permissions",
+   "path": "/lakeformation/home#policy-tags"
+  },
+  {
+   "label": "Hybrid access mode",
+   "path": "/lakeformation/home#hybrid-access"
+  },
+  {
+   "label": "Data locations",
+   "path": "/lakeformation/home#location-permissions"
+  },
+  {
+   "label": "Administrative roles and tasks",
+   "path": "/lakeformation/home#administrative-roles-and-tasks"
+  },
+  {
+   "label": "Data lake locations",
+   "path": "/lakeformation/home#register-list"
+  },
+  {
+   "label": "Application integration settings",
+   "path": "/lakeformation/home#application-integration-settings"
+  },
+  {
+   "label": "IAM Identity Center integration",
+   "path": "/lakeformation/home#identity-center-integration"
+  },
+  {
+   "label": "Data Catalog settings",
+   "path": "/lakeformation/home#default-permission-settings"
+  },
+  {
+   "label": "Blueprints",
+   "path": "/lakeformation/home#workflows"
+  }
+ ],
+ "lam": [
+  {
+   "label": "Applications",
+   "path": "/lambda/home#/applications"
+  },
+  {
+   "label": "Functions",
+   "path": "/lambda/home#/functions"
+  },
+  {
+   "label": "Capacity providers",
+   "path": "/lambda/home#/capacity-providers"
+  },
+  {
+   "label": "Code signing configurations",
+   "path": "/lambda/home#/code-signing-configurations"
+  },
+  {
+   "label": "Event source mappings",
+   "path": "/lambda/home#/event-source-mappings"
+  },
+  {
+   "label": "Layers",
+   "path": "/lambda/home#/layers"
+  },
+  {
+   "label": "Replicas",
+   "path": "/lambda/home#/replicas"
+  },
+  {
+   "label": "MicroVM Images",
+   "path": "/lambda/home#/microvm-images"
+  },
+  {
+   "label": "MicroVMs",
+   "path": "/lambda/home#/microvms"
+  },
+  {
+   "label": "Network connectors",
+   "path": "/lambda/home#/network-connectors"
+  },
+  {
+   "label": "Step Functions state machines",
+   "path": "/lambda/home#/statemachines"
+  },
+  {
+   "label": "Search functions by name",
+   "path": "/lambda/home#/search"
+  }
+ ],
+ "launchwizard": [
+  {
+   "label": "Workload library",
+   "path": "/launchwizard/home#/workload/list/"
+  },
+  {
+   "label": "All deployments",
+   "path": "/launchwizard/home#/deployment/list/"
+  }
+ ],
+ "lexv2": [
+  {
+   "label": "Bots",
+   "path": "/lexv2/home#bots"
+  },
+  {
+   "label": "Bot templates",
+   "path": "/lexv2/home#botTemplateOverview"
+  },
+  {
+   "label": "Networks of bots",
+   "path": "/lexv2/home#networks"
+  },
+  {
+   "label": "Test sets",
+   "path": "/lexv2/home#testSet"
+  },
+  {
+   "label": "Test results",
+   "path": "/lexv2/home#testResult"
+  }
+ ],
+ "managedblockchain": [
+  {
+   "label": "Networks",
+   "path": "/managedblockchain/home#/networks"
+  },
+  {
+   "label": "Invitations",
+   "path": "/managedblockchain/home#/invitations"
+  },
+  {
+   "label": "Token accessors",
+   "path": "/managedblockchain/home#/token-based-access"
+  },
+  {
+   "label": "RPC editor",
+   "path": "/managedblockchain/home#/rpc-editor"
+  },
+  {
+   "label": "Ethereum Mainnet",
+   "path": "/managedblockchain/home#eth/network/n-ethereum-mainnet"
+  }
+ ],
+ "marketplace": [
+  {
+   "label": "Discover products",
+   "path": "/marketplace/search"
+  },
+  {
+   "label": "Procurement insights",
+   "path": "/marketplace/procurement-insights"
+  },
+  {
+   "label": "Manage subscriptions",
+   "path": "/marketplace/subscriptions"
+  },
+  {
+   "label": "Private offers",
+   "path": "/marketplace/private-offers"
+  },
+  {
+   "label": "Vendor Insights",
+   "path": "/marketplace/vendor-insights"
+  },
+  {
+   "label": "Private Marketplace",
+   "path": "/marketplace/private-marketplace"
+  },
+  {
+   "label": "Notifications",
+   "path": "/marketplace/notifications"
+  },
+  {
+   "label": "Settings",
+   "path": "/marketplace/settings"
+  }
+ ],
+ "mediaconnect": [
+  {
+   "label": "Router control panel",
+   "path": "/mediaconnect/home#/routerControlPanel"
+  },
+  {
+   "label": "Router matrix",
+   "path": "/mediaconnect/home#/routerMatrix"
+  },
+  {
+   "label": "Router inputs",
+   "path": "/mediaconnect/home#/routerInputs"
+  },
+  {
+   "label": "Router outputs",
+   "path": "/mediaconnect/home#/routerOutputs"
+  },
+  {
+   "label": "Router network interfaces",
+   "path": "/mediaconnect/home#/routerNetworkInterfaces"
+  },
+  {
+   "label": "Flows",
+   "path": "/mediaconnect/home#/flows"
+  },
+  {
+   "label": "Reservations",
+   "path": "/mediaconnect/home#/reservations"
+  },
+  {
+   "label": "Gateways",
+   "path": "/mediaconnect/home#/gateways"
+  }
+ ],
+ "mediaconvert": [
+  {
+   "label": "Jobs",
+   "path": "/mediaconvert/home#/jobs/list"
+  },
+  {
+   "label": "Output presets",
+   "path": "/mediaconvert/home#/presets/list"
+  },
+  {
+   "label": "Job templates",
+   "path": "/mediaconvert/home#/templates/list"
+  },
+  {
+   "label": "Queues",
+   "path": "/mediaconvert/home#/queues/list"
+  },
+  {
+   "label": "Certificates",
+   "path": "/mediaconvert/home#/certificates"
+  },
+  {
+   "label": "Search",
+   "path": "/mediaconvert/home#/search"
+  }
+ ],
+ "medialive": [
+  {
+   "label": "Inputs",
+   "path": "/medialive/home#/inputs"
+  },
+  {
+   "label": "Input security groups",
+   "path": "/medialive/home#/input-security-groups"
+  },
+  {
+   "label": "Channels",
+   "path": "/medialive/home#/channels"
+  },
+  {
+   "label": "Link input devices",
+   "path": "/medialive/home#/devices"
+  },
+  {
+   "label": "Multiplexes",
+   "path": "/medialive/home#/multiplex"
+  },
+  {
+   "label": "Reservations",
+   "path": "/medialive/home#/reservations"
+  },
+  {
+   "label": "Networks",
+   "path": "/medialive/home#/networks"
+  },
+  {
+   "label": "Clusters",
+   "path": "/medialive/home#/clusters"
+  },
+  {
+   "label": "Nodes",
+   "path": "/medialive/home#/nodes"
+  },
+  {
+   "label": "SDI sources",
+   "path": "/medialive/home#/sdi-sources"
+  },
+  {
+   "label": "Workflow wizard",
+   "path": "/medialive/home#/workflows"
+  },
+  {
+   "label": "Workflow monitor",
+   "path": "/medialive/monitor"
+  }
+ ],
+ "mediapackage": [
+  {
+   "label": "AWS Elemental MediaPackage",
+   "path": "/mediapackage/home#/channels"
+  },
+  {
+   "label": "Harvest jobs",
+   "path": "/mediapackage/home#/harvest-jobs"
+  },
+  {
+   "label": "Channel groups",
+   "path": "/mediapackage/home#/channel-groups"
+  }
+ ],
+ "mediatailor": [
+  {
+   "label": "AWS Elemental MediaTailor",
+   "path": "/mediatailor/home#/controlpanel"
+  },
+  {
+   "label": "Monetization Functions",
+   "path": "/mediatailor/home#/functions"
+  },
+  {
+   "label": "Source locations",
+   "path": "/mediatailor/home#/source-locations"
+  },
+  {
+   "label": "Channels",
+   "path": "/mediatailor/home#/channels"
+  }
+ ],
+ "medical-imaging": [
+  {
+   "label": "Data Stores",
+   "path": "/medical-imaging/home#/dataStores"
+  }
+ ],
+ "mgn": [
+  {
+   "label": "Source servers",
+   "path": "/mgn/home#/sourceServers"
+  },
+  {
+   "label": "Applications",
+   "path": "/mgn/home#/applications"
+  },
+  {
+   "label": "Waves",
+   "path": "/mgn/home#/waves"
+  },
+  {
+   "label": "Global view",
+   "path": "/mgn/home#/globalView"
+  },
+  {
+   "label": "Launch history",
+   "path": "/mgn/home#/launchHistory"
+  },
+  {
+   "label": "MGN connectors",
+   "path": "/mgn/home#/connectors"
+  },
+  {
+   "label": "Import",
+   "path": "/mgn/home#/import"
+  },
+  {
+   "label": "Export",
+   "path": "/mgn/home#/export"
+  },
+  {
+   "label": "Replication template",
+   "path": "/mgn/home#/replicationTemplate"
+  },
+  {
+   "label": "Launch template",
+   "path": "/mgn/home#/launchTemplate"
+  },
+  {
+   "label": "Post-launch template",
+   "path": "/mgn/home#/postLaunchTemplate"
+  },
+  {
+   "label": "User preferences",
+   "path": "/mgn/home#/userPreferences"
+  }
+ ],
+ "msk": [
+  {
+   "label": "Clusters",
+   "path": "/msk/home#clusters"
+  },
+  {
+   "label": "Cluster configurations",
+   "path": "/msk/home#configurations"
+  },
+  {
+   "label": "Managed VPC connections",
+   "path": "/msk/home#managedVPC"
+  },
+  {
+   "label": "Replicators",
+   "path": "/msk/home#replicators"
+  },
+  {
+   "label": "Connectors",
+   "path": "/msk/home#connectors"
+  },
+  {
+   "label": "Customised plugins",
+   "path": "/msk/home#customPlugins"
+  },
+  {
+   "label": "Worker configurations",
+   "path": "/msk/home#workerConfigurations"
+  }
+ ],
+ "neptune": [
+  {
+   "label": "Clusters",
+   "path": "/neptune/home#databases:"
+  },
+  {
+   "label": "Snapshots",
+   "path": "/neptune/home#snapshots:"
+  },
+  {
+   "label": "Subnet groups",
+   "path": "/neptune/home#subnet-groups:"
+  },
+  {
+   "label": "Parameter groups",
+   "path": "/neptune/home#parameter-groups:"
+  },
+  {
+   "label": "Events",
+   "path": "/neptune/home#events:"
+  },
+  {
+   "label": "Event subscriptions",
+   "path": "/neptune/home#event-subscriptions:"
+  },
+  {
+   "label": "Graphs",
+   "path": "/neptune/home#analytics-graphs:"
+  },
+  {
+   "label": "Snapshots",
+   "path": "/neptune/home#analytics-snapshots:"
+  },
+  {
+   "label": "Import tasks",
+   "path": "/neptune/home#analytics-import-tasks:"
+  },
+  {
+   "label": "Export tasks",
+   "path": "/neptune/home#analytics-export-tasks:"
+  },
+  {
+   "label": "Notebooks",
+   "path": "/neptune/home#notebooks:"
+  }
+ ],
+ "notifications": [
+  {
+   "label": "Notification center",
+   "path": "/notifications/home#/most-recent"
+  },
+  {
+   "label": "Notification configurations",
+   "path": "/notifications/home#/configuration"
+  },
+  {
+   "label": "Notification hubs",
+   "path": "/notifications/home#/hub-regions"
+  },
+  {
+   "label": "AWS managed notifications subscriptions",
+   "path": "/notifications/home#/managed-notifications"
+  },
+  {
+   "label": "Delivery channels",
+   "path": "/notifications/home#/delivery-channels"
+  },
+  {
+   "label": "Organizations settings",
+   "path": "/notifications/home#/organizations-settings"
+  }
+ ],
+ "omics": [
+  {
+   "label": "Configurations",
+   "path": "/omics/home#/configurations"
+  },
+  {
+   "label": "Ready2Run workflows",
+   "path": "/omics/home#/ready2run"
+  },
+  {
+   "label": "Private workflows",
+   "path": "/omics/home#/workflows"
+  },
+  {
+   "label": "Runs",
+   "path": "/omics/home#/runs"
+  },
+  {
+   "label": "Run groups",
+   "path": "/omics/home#/runGroups"
+  },
+  {
+   "label": "Run caches",
+   "path": "/omics/home#/runCaches"
+  },
+  {
+   "label": "Reference store",
+   "path": "/omics/home#/reference/referenceStoreDetail"
+  },
+  {
+   "label": "Sequence stores",
+   "path": "/omics/home#/sequenceStore"
+  },
+  {
+   "label": "Variant stores",
+   "path": "/omics/home#/variantStore"
+  },
+  {
+   "label": "Annotation stores",
+   "path": "/omics/home#/annotationStore"
+  },
+  {
+   "label": "All resource shares",
+   "path": "/omics/home#/dataShares"
+  }
+ ],
+ "outposts": [
+  {
+   "label": "Dashboard",
+   "path": "/outposts/home#OutpostsDashboard"
+  },
+  {
+   "label": "Outposts",
+   "path": "/outposts/home#Outposts"
+  },
+  {
+   "label": "Sites",
+   "path": "/outposts/home#Sites"
+  },
+  {
+   "label": "Local gateways (LGW)",
+   "path": "/outposts/home#LocalGateways"
+  },
+  {
+   "label": "LGW routing domain",
+   "path": "/outposts/home#LocalGatewayRoutingDomains"
+  },
+  {
+   "label": "LGW route tables",
+   "path": "/outposts/home#LocalGatewayRouteTables"
+  },
+  {
+   "label": "LGW virtual interface (VIF) groups",
+   "path": "/outposts/home#LocalGatewayVirtualInterfaceGroups"
+  },
+  {
+   "label": "Link aggregation groups (LAGS)",
+   "path": "/outposts/home#LinkAggregationGroups"
+  },
+  {
+   "label": "Capacity tasks",
+   "path": "/outposts/home#CapacityTasks"
+  },
+  {
+   "label": "Quotes",
+   "path": "/outposts/home#Quotes"
+  },
+  {
+   "label": "Orders",
+   "path": "/outposts/home#Orders"
+  },
+  {
+   "label": "Feature spotlight",
+   "path": "/outposts/home#Spotlight"
+  }
+ ],
+ "partnercentral": [
+  {
+   "label": "Become an AWS Partner",
+   "path": "/partnercentral/verification"
+  }
+ ],
+ "payment-cryptography": [
+  {
+   "label": "Payment cryptography keys",
+   "path": "/payment-cryptography/home#/keys"
+  }
+ ],
+ "personalize": [
+  {
+   "label": "Manage dataset groups",
+   "path": "/personalize/home#/datasetGroups"
+  }
+ ],
+ "phd": [
+  {
+   "label": "Open and recent issues",
+   "path": "/health/home#/account/dashboard/open-issues"
+  },
+  {
+   "label": "Scheduled changes",
+   "path": "/health/home#/account/dashboard/scheduled-changes"
+  },
+  {
+   "label": "Other notifications",
+   "path": "/health/home#/account/dashboard/other-notifications"
+  },
+  {
+   "label": "Event log",
+   "path": "/health/home#/account/event-log"
+  },
+  {
+   "label": "Configurations",
+   "path": "/health/home#/organization/configurations"
+  },
+  {
+   "label": "Amazon EventBridge",
+   "path": "/health/home#/eventbridge"
+  },
+  {
+   "label": "Time settings",
+   "path": "/health/home#/settings"
+  }
+ ],
+ "pinwheel": [
+  {
+   "label": "Environments",
+   "path": "/mwaa/home#/environments"
+  },
+  {
+   "label": "Serverless workflows",
+   "path": "/mwaa/home#/serverlessWorkflows"
+  }
+ ],
+ "r53": [
+  {
+   "label": "Hosted zones",
+   "path": "/route53/v2/hostedzones"
+  }
+ ],
+ "ram": [
+  {
+   "label": "Resource shares",
+   "path": "/ram/home#OwnedResourceShares:"
+  },
+  {
+   "label": "Shared resources",
+   "path": "/ram/home#OwnedResources:"
+  },
+  {
+   "label": "Principals",
+   "path": "/ram/home#OwnedPrincipals:"
+  },
+  {
+   "label": "Resource shares",
+   "path": "/ram/home#SharedResourceShares:"
+  },
+  {
+   "label": "Shared resources",
+   "path": "/ram/home#SharedResources:"
+  },
+  {
+   "label": "Principals",
+   "path": "/ram/home#SharedPrincipals:"
+  },
+  {
+   "label": "Managed permissions library",
+   "path": "/ram/home#Permissions:"
+  },
+  {
+   "label": "Settings",
+   "path": "/ram/home#Settings:"
+  }
+ ],
+ "rds": [
+  {
+   "label": "Databases",
+   "path": "/rds/home#databases:"
+  },
+  {
+   "label": "Query editor",
+   "path": "/rds/home#query-editor:"
+  },
+  {
+   "label": "Performance insights",
+   "path": "/rds/home#performance-insights-v20206:"
+  },
+  {
+   "label": "Snapshots",
+   "path": "/rds/home#snapshots-list:"
+  },
+  {
+   "label": "Exports in Amazon S3",
+   "path": "/rds/home#exports-in-s3:"
+  },
+  {
+   "label": "Automated backups",
+   "path": "/rds/home#automatedbackups:"
+  },
+  {
+   "label": "Reserved instances",
+   "path": "/rds/home#reserved-instances:"
+  },
+  {
+   "label": "Proxies",
+   "path": "/rds/home#proxies:"
+  },
+  {
+   "label": "Subnet groups",
+   "path": "/rds/home#db-subnet-groups-list:"
+  },
+  {
+   "label": "Parameter groups",
+   "path": "/rds/home#parameter-group-list:"
+  },
+  {
+   "label": "Option groups",
+   "path": "/rds/home#option-groups-list:"
+  },
+  {
+   "label": "Custom engine versions",
+   "path": "/rds/home#custom-cevs:"
+  },
+  {
+   "label": "Zero-ETL integrations",
+   "path": "/rds/home#integrations:"
+  },
+  {
+   "label": "Events",
+   "path": "/rds/home#event-list:"
+  },
+  {
+   "label": "Event subscriptions",
+   "path": "/rds/home#event-subscriptions-list:"
+  },
+  {
+   "label": "Recommendations",
+   "path": "/rds/home#recommendations:"
+  },
+  {
+   "label": "Certificate update",
+   "path": "/rds/home#ca-cert-update:"
+  },
+  {
+   "label": "Restore from S3",
+   "path": "/rds/home#restore-from-s3:"
+  }
+ ],
+ "recycle-bin-console": [
+  {
+   "label": "Resources",
+   "path": "/rbin/home#/RecycleBin"
+  },
+  {
+   "label": "Retention rules",
+   "path": "/rbin/home#/RetentionRules"
+  }
+ ],
+ "rekognition": [
+  {
+   "label": "Customised moderation",
+   "path": "/rekognition/home#/custom-moderation/projects"
+  },
+  {
+   "label": "Bulk analysis",
+   "path": "/rekognition/home#/bulk-analysis/jobs"
+  },
+  {
+   "label": "Label detection",
+   "path": "/rekognition/home#/label-detection"
+  },
+  {
+   "label": "Image properties",
+   "path": "/rekognition/home#/image-properties"
+  },
+  {
+   "label": "Image moderation",
+   "path": "/rekognition/home#/image-moderation"
+  },
+  {
+   "label": "Facial analysis",
+   "path": "/rekognition/home#/face-detection"
+  },
+  {
+   "label": "Face comparison",
+   "path": "/rekognition/home#/face-comparison"
+  },
+  {
+   "label": "Face Liveness",
+   "path": "/rekognition/home#/face-liveness"
+  },
+  {
+   "label": "Celebrity recognition",
+   "path": "/rekognition/home#/celebrity-detection"
+  },
+  {
+   "label": "Text in image",
+   "path": "/rekognition/home#/text-detection"
+  },
+  {
+   "label": "PPE detection",
+   "path": "/rekognition/home#/ppe"
+  },
+  {
+   "label": "Stored video analysis",
+   "path": "/rekognition/home#/video-analysis"
+  },
+  {
+   "label": "Streaming video events",
+   "path": "/rekognition/home#/streaming-video-events"
+  },
+  {
+   "label": "Metrics",
+   "path": "/rekognition/home#/usage-metrics"
+  }
+ ],
+ "resource-explorer": [
+  {
+   "label": "Resources",
+   "path": "/resource-explorer/home#/search"
+  },
+  {
+   "label": "Views",
+   "path": "/resource-explorer/home#/views"
+  },
+  {
+   "label": "Settings",
+   "path": "/resource-explorer/home#/settings"
+  },
+  {
+   "label": "Customise Region setup",
+   "path": "/resource-explorer/home#/onboarding"
+  }
+ ],
+ "resource-groups": [
+  {
+   "label": "Saved Resource Groups",
+   "path": "/resource-groups/groups"
+  },
+  {
+   "label": "Settings",
+   "path": "/resource-groups/settings"
+  },
+  {
+   "label": "Tag Policies",
+   "path": "/resource-groups/tag-policies"
+  }
+ ],
+ "rosa": [
+  {
+   "label": "Contracts",
+   "path": "/rosa/home#/contracts"
+  }
+ ],
+ "rs": [
+  {
+   "label": "Redshift Serverless",
+   "path": "/redshiftv2/home#/serverless-setup"
+  },
+  {
+   "label": "Provisioned clusters dashboard",
+   "path": "/redshiftv2/home#/dashboard"
+  },
+  {
+   "label": "Clusters",
+   "path": "/redshiftv2/home#/clusters"
+  },
+  {
+   "label": "Reserved nodes",
+   "path": "/redshiftv2/home#/reserved-nodes"
+  },
+  {
+   "label": "Snapshots",
+   "path": "/redshiftv2/home#/snapshots"
+  },
+  {
+   "label": "Query editor",
+   "path": "/redshiftv2/home#/query-editor:"
+  },
+  {
+   "label": "Amazon SageMaker Unified Studio",
+   "path": "/redshiftv2/home#smus-express"
+  },
+  {
+   "label": "Query and database monitoring",
+   "path": "/redshiftv2/home#/queries"
+  },
+  {
+   "label": "Datashares",
+   "path": "/redshiftv2/home#/data-shares"
+  },
+  {
+   "label": "Zero-ETL integrations",
+   "path": "/redshiftv2/home#/zero-etl-integrations"
+  },
+  {
+   "label": "S3 event integrations",
+   "path": "/redshiftv2/home#/s3-integrations"
+  },
+  {
+   "label": "IAM Identity Center connections",
+   "path": "/redshiftv2/home#/iam-idc-integration"
+  },
+  {
+   "label": "Configurations",
+   "path": "/redshiftv2/home#/configurations"
+  },
+  {
+   "label": "Workload management",
+   "path": "/redshiftv2/home#/workload-management"
+  },
+  {
+   "label": "Subnet groups",
+   "path": "/redshiftv2/home#/subnet-groups"
+  },
+  {
+   "label": "Manage Tags",
+   "path": "/redshiftv2/home#/manage-tags"
+  },
+  {
+   "label": "Informatica Data Load & Transform",
+   "path": "/redshiftv2/home#/informatica-partner-connect"
+  },
+  {
+   "label": "Advisor",
+   "path": "/redshiftv2/home#/recommendations"
+  },
+  {
+   "label": "AWS Marketplace",
+   "path": "/redshiftv2/home#/marketplace"
+  },
+  {
+   "label": "Alarms",
+   "path": "/redshiftv2/home#/alarms"
+  },
+  {
+   "label": "Events",
+   "path": "/redshiftv2/home#/events"
+  }
+ ],
+ "rtbfabric": [
+  {
+   "label": "Dashboard",
+   "path": "/rtbfabric/dashboard"
+  },
+  {
+   "label": "Requester gateways",
+   "path": "/rtbfabric/requester"
+  },
+  {
+   "label": "Responder gateways",
+   "path": "/rtbfabric/responder"
+  }
+ ],
+ "s3": [
+  {
+   "label": "General purpose buckets",
+   "path": "/s3/buckets"
+  },
+  {
+   "label": "Directory buckets",
+   "path": "/s3/directory-buckets"
+  },
+  {
+   "label": "Table buckets",
+   "path": "/s3/table-buckets"
+  },
+  {
+   "label": "Vector buckets",
+   "path": "/s3/vector-buckets"
+  },
+  {
+   "label": "File systems",
+   "path": "/s3/fs"
+  },
+  {
+   "label": "Access Points",
+   "path": "/s3/ap"
+  },
+  {
+   "label": "Access Points for FSx",
+   "path": "/s3/fsxap"
+  },
+  {
+   "label": "Access Grants",
+   "path": "/s3/access-grants"
+  },
+  {
+   "label": "IAM Access Analyzer",
+   "path": "/s3/access"
+  },
+  {
+   "label": "Storage Lens",
+   "path": "/s3/lens"
+  },
+  {
+   "label": "Batch Operations",
+   "path": "/s3/jobs"
+  },
+  {
+   "label": "Account and organization settings",
+   "path": "/s3/account-settings"
+  },
+  {
+   "label": "AWS Marketplace for S3",
+   "path": "/s3/marketplace"
+  }
+ ],
+ "sagemaker": [
+  {
+   "label": "Dashboard",
+   "path": "/sagemaker/home#/dashboard"
+  },
+  {
+   "label": "Domains",
+   "path": "/sagemaker/home#/studio"
+  },
+  {
+   "label": "Images",
+   "path": "/sagemaker/home#/images"
+  },
+  {
+   "label": "Lifecycle configurations",
+   "path": "/sagemaker/home#/lifecycle-configurations"
+  },
+  {
+   "label": "Role manager",
+   "path": "/sagemaker/home#/role-manager-landing"
+  },
+  {
+   "label": "SageMaker Studio",
+   "path": "/sagemaker/home#/studio-landing"
+  },
+  {
+   "label": "Canvas",
+   "path": "/sagemaker/home#/canvas-landing"
+  },
+  {
+   "label": "RStudio",
+   "path": "/sagemaker/home#/rstudio-landing"
+  },
+  {
+   "label": "Notebooks",
+   "path": "/sagemaker/home#/notebooks-and-git-repos"
+  },
+  {
+   "label": "TensorBoard",
+   "path": "/sagemaker/home#/tensor-board-landing"
+  },
+  {
+   "label": "Profiler",
+   "path": "/sagemaker/home#/profiler-landing"
+  },
+  {
+   "label": "Partner AI Apps",
+   "path": "/sagemaker/home#/partner-apps"
+  },
+  {
+   "label": "Training & tuning jobs",
+   "path": "/sagemaker/home#/training"
+  },
+  {
+   "label": "JumpStart model hub",
+   "path": "/sagemaker/home#/jumpstart-models"
+  },
+  {
+   "label": "Nova Forge",
+   "path": "/sagemaker/home#/nova-forge"
+  },
+  {
+   "label": "HyperPod clusters",
+   "path": "/sagemaker/home#/cluster-management"
+  },
+  {
+   "label": "Training plans",
+   "path": "/sagemaker/home#/training-plans"
+  },
+  {
+   "label": "Deployable models",
+   "path": "/sagemaker/home#/models"
+  },
+  {
+   "label": "Endpoints",
+   "path": "/sagemaker/home#/endpoints"
+  },
+  {
+   "label": "Endpoint configurations",
+   "path": "/sagemaker/home#/endpointConfig"
+  },
+  {
+   "label": "Batch transform jobs",
+   "path": "/sagemaker/home#/transform-jobs"
+  },
+  {
+   "label": "Shadow tests",
+   "path": "/sagemaker/home#/inference-experiments"
+  },
+  {
+   "label": "Compilation jobs",
+   "path": "/sagemaker/home#/compilation-jobs"
+  },
+  {
+   "label": "Inference Recommender",
+   "path": "/sagemaker/home#/inference-recommender"
+  },
+  {
+   "label": "Model dashboard",
+   "path": "/sagemaker/home#/model-dashboard"
+  },
+  {
+   "label": "Model cards",
+   "path": "/sagemaker/home#/model-cards"
+  },
+  {
+   "label": "Marketplace model packages",
+   "path": "/sagemaker/home#/model-packages"
+  },
+  {
+   "label": "All products",
+   "path": "/sagemaker/home#/marketplace-search-all!mpSearch/search"
+  },
+  {
+   "label": "Processing jobs",
+   "path": "/sagemaker/home#/processing-jobs"
+  }
+ ],
+ "sc": [
+  {
+   "label": "Home",
+   "path": "/servicecatalog/home#/home"
+  },
+  {
+   "label": "Products",
+   "path": "/servicecatalog/home#/products"
+  },
+  {
+   "label": "Provisioned products",
+   "path": "/servicecatalog/home#/provisioned-products"
+  },
+  {
+   "label": "Product list",
+   "path": "/servicecatalog/home#/admin-products"
+  },
+  {
+   "label": "Portfolios",
+   "path": "/servicecatalog/home#/portfolios"
+  },
+  {
+   "label": "TagOptions library",
+   "path": "/servicecatalog/home#/tag-options"
+  },
+  {
+   "label": "Service actions",
+   "path": "/servicecatalog/home#/service-actions/"
+  },
+  {
+   "label": "Preferences",
+   "path": "/servicecatalog/home#/preferences"
+  },
+  {
+   "label": "Introduction",
+   "path": "/servicecatalog/home#/appregistry"
+  },
+  {
+   "label": "Applications",
+   "path": "/servicecatalog/home#/applications/"
+  },
+  {
+   "label": "Attribute groups",
+   "path": "/servicecatalog/home#/attribute-groups/"
+  },
+  {
+   "label": "Settings",
+   "path": "/servicecatalog/home#/appreg-settings/"
+  }
+ ],
+ "secretsmanager": [
+  {
+   "label": "Secrets",
+   "path": "/secretsmanager/listsecrets"
+  }
+ ],
+ "security-ir": [
+  {
+   "label": "Home",
+   "path": "/security-ir/home#/"
+  },
+  {
+   "label": "Knowledge centre",
+   "path": "/security-ir/home#/knowledge-center"
+  }
+ ],
+ "securityhubv2": [
+  {
+   "label": "Estimate cost",
+   "path": "/securityhub/v2/home#/costEstimator"
+  }
+ ],
+ "securitylake": [
+  {
+   "label": "Knowledge centre",
+   "path": "/securitylake/home#/knowledge-center"
+  }
+ ],
+ "serverlessrepo": [
+  {
+   "label": "Available applications",
+   "path": "/serverlessrepo/home#/available-applications"
+  },
+  {
+   "label": "Published applications",
+   "path": "/serverlessrepo/home#/published-applications"
+  }
+ ],
+ "ses": [
+  {
+   "label": "Get set up",
+   "path": "/ses/home#/onboarding"
+  },
+  {
+   "label": "Account dashboard",
+   "path": "/ses/home#/account"
+  },
+  {
+   "label": "Reputation metrics",
+   "path": "/ses/home#/reputation"
+  },
+  {
+   "label": "SMTP settings",
+   "path": "/ses/home#/smtp"
+  },
+  {
+   "label": "Identities",
+   "path": "/ses/home#/identities"
+  },
+  {
+   "label": "Configuration sets",
+   "path": "/ses/home#/configuration-sets"
+  },
+  {
+   "label": "Tenants",
+   "path": "/ses/home#/tenants"
+  },
+  {
+   "label": "Dedicated IPs",
+   "path": "/ses/home#/dedicated-ips"
+  },
+  {
+   "label": "Global endpoints",
+   "path": "/ses/home#/global-endpoints"
+  },
+  {
+   "label": "Email templates",
+   "path": "/ses/home#/email-templates"
+  },
+  {
+   "label": "Suppression list",
+   "path": "/ses/home#/suppression-list"
+  },
+  {
+   "label": "Email receiving",
+   "path": "/ses/home#/email-receiving"
+  },
+  {
+   "label": "Overview",
+   "path": "/ses/home#/email-validation/overview"
+  },
+  {
+   "label": "Email addresses validation",
+   "path": "/ses/home#/email-validation/addresses-validation"
+  },
+  {
+   "label": "Auto Validation",
+   "path": "/ses/home#/email-validation/auto-validation-settings"
+  },
+  {
+   "label": "Dashboard",
+   "path": "/ses/home#/email-validation/dashboard"
+  },
+  {
+   "label": "SES deliverability",
+   "path": "/ses/home#/vdm/ses-deliverability"
+  },
+  {
+   "label": "Global deliverability",
+   "path": "/ses/home#/vdm/global-deliverability"
+  },
+  {
+   "label": "Settings",
+   "path": "/ses/home#/vdm/settings"
+  },
+  {
+   "label": "Overview",
+   "path": "/ses/home#/mail-manager/overview"
+  },
+  {
+   "label": "Get set up",
+   "path": "/ses/home#/mail-manager/get-set-up"
+  },
+  {
+   "label": "Dashboard",
+   "path": "/ses/home#/mail-manager/dashboard"
+  },
+  {
+   "label": "Address lists",
+   "path": "/ses/home#/mail-manager/address-lists"
+  },
+  {
+   "label": "Traffic policies",
+   "path": "/ses/home#/mail-manager/traffic-policies"
+  },
+  {
+   "label": "Rule sets",
+   "path": "/ses/home#/mail-manager/rule-sets"
+  },
+  {
+   "label": "Ingress endpoints",
+   "path": "/ses/home#/mail-manager/ingress-endpoints"
+  },
+  {
+   "label": "Email add-ons",
+   "path": "/ses/home#/mail-manager/add-ons"
+  },
+  {
+   "label": "SMTP relays",
+   "path": "/ses/home#/mail-manager/smtp-relays"
+  },
+  {
+   "label": "Email archiving",
+   "path": "/ses/home#/mail-manager/email-archiving"
+  }
+ ],
+ "signer": [
+  {
+   "label": "Signing jobs",
+   "path": "/signer/home#/signing-jobs"
+  },
+  {
+   "label": "Signing profiles",
+   "path": "/signer/home#/signing-profiles"
+  }
+ ],
+ "sns": [
+  {
+   "label": "Dashboard",
+   "path": "/sns/v3/home#/dashboard"
+  },
+  {
+   "label": "Topics",
+   "path": "/sns/v3/home#/topics"
+  },
+  {
+   "label": "Subscriptions",
+   "path": "/sns/v3/home#/subscriptions"
+  },
+  {
+   "label": "Push notifications",
+   "path": "/sns/v3/home#/mobile/push-notifications"
+  },
+  {
+   "label": "Text messaging (SMS)",
+   "path": "/sns/v3/home#/mobile/text-messaging"
+  }
+ ],
+ "sqs": [
+  {
+   "label": "Queues",
+   "path": "/sqs/v3/home#/queues"
+  }
+ ],
+ "states": [
+  {
+   "label": "Dashboard",
+   "path": "/states/home#/dashboard"
+  },
+  {
+   "label": "State machines",
+   "path": "/states/home#/statemachines"
+  },
+  {
+   "label": "Execution inspector",
+   "path": "/states/home#/execution-explorer"
+  },
+  {
+   "label": "Activities",
+   "path": "/states/home#/activities"
+  },
+  {
+   "label": "Local Development",
+   "path": "/states/home#/local-development"
+  },
+  {
+   "label": "Data flow simulator",
+   "path": "/states/home#/simulator"
+  },
+  {
+   "label": "Feature spotlight",
+   "path": "/states/home#/spotlight"
+  }
+ ],
+ "stealfire": [
+  {
+   "label": "All workspaces",
+   "path": "/prometheus/home#/workspaces"
+  },
+  {
+   "label": "All Managed Collector",
+   "path": "/prometheus/home#/scrapers"
+  }
+ ],
+ "supernova": [
+  {
+   "label": "Applications",
+   "path": "/m2/home#/applications"
+  },
+  {
+   "label": "Environments",
+   "path": "/m2/home#/environments"
+  },
+  {
+   "label": "File transfer",
+   "path": "/m2/home#/file-transfer"
+  },
+  {
+   "label": "Data transfer endpoints",
+   "path": "/m2/home#/file-transfer/data-transfer-endpoints"
+  },
+  {
+   "label": "Transfer tasks",
+   "path": "/m2/home#/file-transfer/transfer-tasks"
+  }
+ ],
+ "sustainability": [
+  {
+   "label": "Carbon emissions",
+   "path": "/sustainability/carbon-emissions"
+  },
+  {
+   "label": "Water allocation",
+   "path": "/sustainability/water-allocation"
+  },
+  {
+   "label": "Reports",
+   "path": "/sustainability/reports"
+  },
+  {
+   "label": "Release notes",
+   "path": "/sustainability/release-notes"
+  },
+  {
+   "label": "Settings",
+   "path": "/sustainability/settings"
+  }
+ ],
+ "swf": [
+  {
+   "label": "Domains",
+   "path": "/swf/v2/home#/domains"
+  }
+ ],
+ "systems-manager": [
+  {
+   "label": "Review node insights",
+   "path": "/systems-manager/review-node-insights"
+  },
+  {
+   "label": "Explore nodes",
+   "path": "/systems-manager/explore-nodes"
+  },
+  {
+   "label": "Diagnose and remediate",
+   "path": "/systems-manager/diagnose-and-remediate"
+  },
+  {
+   "label": "Just-in-time node access",
+   "path": "/systems-manager/just-in-time-node-access"
+  },
+  {
+   "label": "Hybrid and Multicloud nodes",
+   "path": "/systems-manager/hybrid-cloud"
+  },
+  {
+   "label": "Settings",
+   "path": "/systems-manager/settings"
+  }
+ ],
+ "ta": [
+  {
+   "label": "Recommendations",
+   "path": "/trustedadvisor/home#/dashboard"
+  },
+  {
+   "label": "Cost optimization",
+   "path": "/trustedadvisor/home#/category/cost-optimizing"
+  },
+  {
+   "label": "Performance",
+   "path": "/trustedadvisor/home#/category/performance"
+  },
+  {
+   "label": "Security",
+   "path": "/trustedadvisor/home#/category/security"
+  },
+  {
+   "label": "Fault tolerance",
+   "path": "/trustedadvisor/home#/category/fault-tolerance"
+  },
+  {
+   "label": "Service limits",
+   "path": "/trustedadvisor/home#/category/service-limits"
+  },
+  {
+   "label": "Operational excellence",
+   "path": "/trustedadvisor/home#/category/operational-excellence"
+  },
+  {
+   "label": "Manage Trusted Advisor",
+   "path": "/trustedadvisor/home#/preferences/manage-trusted-advisor"
+  },
+  {
+   "label": "Notifications",
+   "path": "/trustedadvisor/home#/preferences/notifications"
+  }
+ ],
+ "textract": [
+  {
+   "label": "Analyze Document",
+   "path": "/textract/home#/demo"
+  },
+  {
+   "label": "Analyze Expense",
+   "path": "/textract/home#/analyzeexpense"
+  },
+  {
+   "label": "Analyze ID",
+   "path": "/textract/home#/analyzeid"
+  },
+  {
+   "label": "Analyze Lending",
+   "path": "/textract/home#/analyzelending/demo"
+  },
+  {
+   "label": "Bulk Document Uploader",
+   "path": "/textract/home#/bulkupload/tracker"
+  },
+  {
+   "label": "Custom Queries",
+   "path": "/textract/home#/customqueries/landing"
+  },
+  {
+   "label": "Textract Service Quota Calculator",
+   "path": "/textract/home#/quotaCalculator"
+  }
+ ],
+ "thor": [
+  {
+   "label": "Projects",
+   "path": "/monitron/home#/projects"
+  }
+ ],
+ "timestream": [
+  {
+   "label": "Service dashboard",
+   "path": "/timestream/home#dashboard"
+  },
+  {
+   "label": "Developer resources",
+   "path": "/timestream/home#developer-resources"
+  },
+  {
+   "label": "Admin dashboard",
+   "path": "/timestream/home#admin-dashboard"
+  },
+  {
+   "label": "Databases",
+   "path": "/timestream/home#databases"
+  },
+  {
+   "label": "Tables",
+   "path": "/timestream/home#tables"
+  },
+  {
+   "label": "Backups",
+   "path": "/timestream/home#backups"
+  },
+  {
+   "label": "Batch load tasks",
+   "path": "/timestream/home#batch-loads"
+  },
+  {
+   "label": "Query editor",
+   "path": "/timestream/home#/query-editor:"
+  },
+  {
+   "label": "Scheduled queries",
+   "path": "/timestream/home#scheduled-queries"
+  },
+  {
+   "label": "Monitoring",
+   "path": "/timestream/home#monitoring"
+  },
+  {
+   "label": "InfluxDB databases",
+   "path": "/timestream/home#influx-databases"
+  },
+  {
+   "label": "Parameter groups",
+   "path": "/timestream/home#parameter-groups"
+  },
+  {
+   "label": "Configure settings",
+   "path": "/timestream/home#capacity-management"
+  }
+ ],
+ "tnb": [
+  {
+   "label": "Dashboard",
+   "path": "/tnb/home#/dashboard"
+  },
+  {
+   "label": "Networks",
+   "path": "/tnb/home#/networks"
+  },
+  {
+   "label": "Function packages",
+   "path": "/tnb/home#/function-packages"
+  },
+  {
+   "label": "Network packages",
+   "path": "/tnb/home#/network-packages"
+  }
+ ],
+ "transcribe": [
+  {
+   "label": "Real-time transcription",
+   "path": "/transcribe/home#realTimeTranscription"
+  },
+  {
+   "label": "Transcription jobs",
+   "path": "/transcribe/home#jobs"
+  },
+  {
+   "label": "Customised language model",
+   "path": "/transcribe/home#customLanguageModel"
+  },
+  {
+   "label": "Customised vocabulary",
+   "path": "/transcribe/home#vocabulary"
+  },
+  {
+   "label": "Vocabulary filtering",
+   "path": "/transcribe/home#vocabularyFiltering"
+  },
+  {
+   "label": "Real-time analytics",
+   "path": "/transcribe/home#realTimeCallAnalytics"
+  },
+  {
+   "label": "Post-call analytics",
+   "path": "/transcribe/home#jobsAnalytics"
+  },
+  {
+   "label": "Category management",
+   "path": "/transcribe/home#categoriesAnalytics"
+  },
+  {
+   "label": "Real-time transcription",
+   "path": "/transcribe/home#realTimeMedicalTranscription"
+  },
+  {
+   "label": "Transcription jobs",
+   "path": "/transcribe/home#jobsMedical"
+  },
+  {
+   "label": "Customised vocabulary",
+   "path": "/transcribe/home#vocabulary-medical"
+  },
+  {
+   "label": "Medical Insights",
+   "path": "/transcribe/home#healthScribeDemo"
+  },
+  {
+   "label": "Transcription jobs",
+   "path": "/transcribe/home#jobsHealthScribe"
+  }
+ ],
+ "transfer": [
+  {
+   "label": "Servers",
+   "path": "/transfer/home#/servers"
+  },
+  {
+   "label": "Web apps",
+   "path": "/transfer/home#/web-apps"
+  },
+  {
+   "label": "SFTP connectors",
+   "path": "/transfer/home#/sftp/connectors"
+  },
+  {
+   "label": "Workflows",
+   "path": "/transfer/home#/workflows"
+  },
+  {
+   "label": "Certificates",
+   "path": "/transfer/home#/certificates"
+  },
+  {
+   "label": "Profiles",
+   "path": "/transfer/home#/profiles"
+  },
+  {
+   "label": "Agreements to receive messages",
+   "path": "/transfer/home#/as2/agreements"
+  },
+  {
+   "label": "Connectors to send messages",
+   "path": "/transfer/home#/as2/connectors"
+  },
+  {
+   "label": "Feature spotlight",
+   "path": "/transfer/home#/feature-spotlight"
+  },
+  {
+   "label": "About servers",
+   "path": "/transfer/home#/"
+  },
+  {
+   "label": "About web apps",
+   "path": "/transfer/home#/web-apps-home"
+  },
+  {
+   "label": "About SFTP connectors",
+   "path": "/transfer/home#/connectors-home"
+  }
+ ],
+ "translate": [
+  {
+   "label": "Metrics",
+   "path": "/translate/home#metrics"
+  },
+  {
+   "label": "Real-time translation",
+   "path": "/translate/home#translation"
+  },
+  {
+   "label": "Batch translation",
+   "path": "/translate/home#batch-translation"
+  },
+  {
+   "label": "Custom terminology",
+   "path": "/translate/home#terminology"
+  },
+  {
+   "label": "Parallel data",
+   "path": "/translate/home#parallel-data"
+  }
+ ],
+ "valkyrie": [
+  {
+   "label": "Experiment templates",
+   "path": "/fis/home#ExperimentTemplates"
+  },
+  {
+   "label": "Scenario library",
+   "path": "/fis/home#ScenarioLibrary"
+  },
+  {
+   "label": "Experiments",
+   "path": "/fis/home#Experiments"
+  },
+  {
+   "label": "Spotlight",
+   "path": "/fis/home#Spotlight"
+  }
+ ],
+ "venice": [
+  {
+   "label": "Schema mappings",
+   "path": "/entityresolution/home#/schema-mappings"
+  },
+  {
+   "label": "ID namespaces",
+   "path": "/entityresolution/home#/id-namespaces"
+  },
+  {
+   "label": "Matching",
+   "path": "/entityresolution/home#/matching-workflows"
+  },
+  {
+   "label": "ID mapping",
+   "path": "/entityresolution/home#/id-mapping-workflows"
+  }
+ ],
+ "verifiedpermissions": [
+  {
+   "label": "Policy stores",
+   "path": "/verifiedpermissions/policy-stores"
+  }
+ ],
+ "vpc": [
+  {
+   "label": "VPC dashboard",
+   "path": "/vpcconsole/home#Home:"
+  },
+  {
+   "label": "Your VPCs",
+   "path": "/vpcconsole/home#vpcs:"
+  },
+  {
+   "label": "Subnets",
+   "path": "/vpcconsole/home#subnets:"
+  },
+  {
+   "label": "Route tables",
+   "path": "/vpcconsole/home#RouteTables:"
+  },
+  {
+   "label": "Internet gateways",
+   "path": "/vpcconsole/home#igws:"
+  },
+  {
+   "label": "Egress-only Internet gateways",
+   "path": "/vpcconsole/home#EgressOnlyInternetGateways:"
+  },
+  {
+   "label": "Carrier gateways",
+   "path": "/vpcconsole/home#CarrierGateways:"
+  },
+  {
+   "label": "DHCP option sets",
+   "path": "/vpcconsole/home#dhcpOptions:"
+  },
+  {
+   "label": "Elastic IPs",
+   "path": "/vpcconsole/home#Addresses:"
+  },
+  {
+   "label": "Managed prefix lists",
+   "path": "/vpcconsole/home#ManagedPrefixLists:"
+  },
+  {
+   "label": "NAT gateways",
+   "path": "/vpcconsole/home#NatGateways:"
+  },
+  {
+   "label": "Peering connections",
+   "path": "/vpcconsole/home#PeeringConnections:"
+  },
+  {
+   "label": "Route servers",
+   "path": "/vpcconsole/home#RouteServers:"
+  },
+  {
+   "label": "Network ACLs",
+   "path": "/vpcconsole/home#acls:"
+  },
+  {
+   "label": "Security groups",
+   "path": "/vpcconsole/home#SecurityGroups:"
+  },
+  {
+   "label": "Endpoints",
+   "path": "/vpcconsole/home#Endpoints:"
+  },
+  {
+   "label": "Endpoint services",
+   "path": "/vpcconsole/home#EndpointServices:"
+  },
+  {
+   "label": "Service networks",
+   "path": "/vpcconsole/home#ServiceNetworks:"
+  },
+  {
+   "label": "Lattice services",
+   "path": "/vpcconsole/home#Services:"
+  },
+  {
+   "label": "Resource configurations",
+   "path": "/vpcconsole/home#ResourceConfigs:"
+  },
+  {
+   "label": "Resource gateways",
+   "path": "/vpcconsole/home#ResourceGateways:"
+  },
+  {
+   "label": "Target groups",
+   "path": "/vpcconsole/home#TargetGroups:"
+  },
+  {
+   "label": "Domain verifications",
+   "path": "/vpcconsole/home#DomainVerifications:"
+  },
+  {
+   "label": "Rule groups",
+   "path": "/vpcconsole/home#DNSFirewallRuleGroups:"
+  },
+  {
+   "label": "Domain lists",
+   "path": "/vpcconsole/home#DNSFirewallDomainLists:"
+  },
+  {
+   "label": "Firewalls",
+   "path": "/vpcconsole/home#NetworkFirewalls:"
+  },
+  {
+   "label": "Firewall policies",
+   "path": "/vpcconsole/home#NetworkFirewallPolicies:"
+  },
+  {
+   "label": "Network Firewall rule groups",
+   "path": "/vpcconsole/home#NetworkFirewallRuleGroups:"
+  },
+  {
+   "label": "TLS inspection configurations",
+   "path": "/vpcconsole/home#NetworkFirewallTLSInspectionConfigurations:"
+  },
+  {
+   "label": "Network Firewall resource groups",
+   "path": "/vpcconsole/home#NetworkFirewallResourceGroups:"
+  },
+  {
+   "label": "VPC endpoint associations",
+   "path": "/vpcconsole/home#NetworkFirewallVPCEndpointAssociations:"
+  },
+  {
+   "label": "Container associations",
+   "path": "/vpcconsole/home#NetworkFirewallContainerAssociations:"
+  },
+  {
+   "label": "Customer gateways",
+   "path": "/vpcconsole/home#CustomerGateways:"
+  },
+  {
+   "label": "Virtual private gateways",
+   "path": "/vpcconsole/home#VpnGateways:"
+  },
+  {
+   "label": "Site-to-site VPN concentrators",
+   "path": "/vpcconsole/home#VpnConcentrators:"
+  },
+  {
+   "label": "Site-to-Site VPN connections",
+   "path": "/vpcconsole/home#VpnConnections:"
+  },
+  {
+   "label": "Client VPN endpoints",
+   "path": "/vpcconsole/home#ClientVPNEndpoints:"
+  },
+  {
+   "label": "Verified access instances",
+   "path": "/vpcconsole/home#VerifiedAccessInstances:"
+  },
+  {
+   "label": "Verified access trust providers",
+   "path": "/vpcconsole/home#VerifiedAccessTrustProviders:"
+  },
+  {
+   "label": "Verified access groups",
+   "path": "/vpcconsole/home#VerifiedAccessGroups:"
+  }
+ ],
+ "wafv2-pro": [
+  {
+   "label": "Protection packs (web ACLs)",
+   "path": "/wafv2-pro/protections"
+  },
+  {
+   "label": "IP sets",
+   "path": "/wafv2-pro/ip-sets"
+  },
+  {
+   "label": "Regex pattern sets",
+   "path": "/wafv2-pro/regex-pattern-sets"
+  },
+  {
+   "label": "Rule groups",
+   "path": "/wafv2-pro/rule-groups"
+  },
+  {
+   "label": "Application integration",
+   "path": "/wafv2-pro/application-integration"
+  },
+  {
+   "label": "Add-on protections",
+   "path": "/wafv2-pro/add-on-protections"
+  },
+  {
+   "label": "Analysis",
+   "path": "/wafv2-pro/ai-traffic-analysis"
+  },
+  {
+   "label": "Revenue",
+   "path": "/wafv2-pro/ai-revenue-payments"
+  },
+  {
+   "label": "Switch to the old WAF console",
+   "path": "/wafv2-pro/switch-to-wafv2"
+  }
+ ],
+ "waypoint": [
+  {
+   "label": "Feature spotlight",
+   "path": "/location/home#/feature-spotlight"
+  }
+ ],
+ "wellarchitected": [
+  {
+   "label": "Dashboard",
+   "path": "/wellarchitected/home#/dashboard"
+  },
+  {
+   "label": "Custom lenses",
+   "path": "/wellarchitected/home#/lenses"
+  },
+  {
+   "label": "Share invitations",
+   "path": "/wellarchitected/home#/invitations"
+  },
+  {
+   "label": "Notifications",
+   "path": "/wellarchitected/home#/notifications"
+  },
+  {
+   "label": "Workloads",
+   "path": "/wellarchitected/home#/workloads"
+  },
+  {
+   "label": "Review templates",
+   "path": "/wellarchitected/home#/review-templates"
+  },
+  {
+   "label": "Profiles",
+   "path": "/wellarchitected/home#/profiles"
+  },
+  {
+   "label": "Settings",
+   "path": "/wellarchitected/home#/settings"
+  }
+ ],
+ "wickr": [
+  {
+   "label": "All networks",
+   "path": "/wickr/home#/manage-networks"
+  }
+ ],
+ "workspaces-thin-client": [
+  {
+   "label": "Environments",
+   "path": "/workspaces-thin-client/environment"
+  },
+  {
+   "label": "Devices",
+   "path": "/workspaces-thin-client/device"
+  },
+  {
+   "label": "Software updates",
+   "path": "/workspaces-thin-client/softwareset"
+  }
+ ],
+ "workspaces-web": [
+  {
+   "label": "Recent Features",
+   "path": "/workspaces-web/recent-features"
+  }
+ ],
+ "xray": [
+  {
+   "label": "Ingestion",
+   "path": "/cloudwatch/home#telemetry-config:"
+  },
+  {
+   "label": "Dashboards",
+   "path": "/cloudwatch/home#dashboards/"
+  },
+  {
+   "label": "Alarms",
+   "path": "/cloudwatch/home#alarmsV2:"
+  },
+  {
+   "label": "Overview",
+   "path": "/cloudwatch/home#investigations/overview"
+  },
+  {
+   "label": "Investigations",
+   "path": "/cloudwatch/home#investigations/list"
+  },
+  {
+   "label": "Configuration",
+   "path": "/cloudwatch/home#investigations/configuration"
+  },
+  {
+   "label": "Model Invocations",
+   "path": "/cloudwatch/home#gen-ai-observability/model-invocation"
+  },
+  {
+   "label": "Bedrock AgentCore",
+   "path": "/cloudwatch/home#gen-ai-observability/agent-core"
+  },
+  {
+   "label": "Services",
+   "path": "/cloudwatch/home#application-signals:services"
+  },
+  {
+   "label": "Application Map",
+   "path": "/cloudwatch/home#application-signals:service-map"
+  },
+  {
+   "label": "Transaction Search",
+   "path": "/cloudwatch/home#logsV2:transaction-search"
+  },
+  {
+   "label": "Service Level Objectives (SLO)",
+   "path": "/cloudwatch/home#application-signals:slo"
+  },
+  {
+   "label": "Synthetics Canaries",
+   "path": "/cloudwatch/home#synthetics:canary/list"
+  },
+  {
+   "label": "RUM",
+   "path": "/cloudwatch/home#rum:dashboard?tab=overview"
+  },
+  {
+   "label": "Traces",
+   "path": "/cloudwatch/home#xray:traces"
+  },
+  {
+   "label": "Trace Map",
+   "path": "/cloudwatch/home#xray:service-map"
+  },
+  {
+   "label": "Application Insights",
+   "path": "/cloudwatch/home#settings:AppInsightsSettings"
+  },
+  {
+   "label": "Container Insights",
+   "path": "/cloudwatch/home#container-insights:"
+  },
+  {
+   "label": "Database Insights",
+   "path": "/cloudwatch/home#database-insights:single-fleet"
+  },
+  {
+   "label": "Lambda Insights",
+   "path": "/cloudwatch/home#lambda-insights:"
+  },
+  {
+   "label": "SageMaker Insights",
+   "path": "/cloudwatch/home#sagemaker-insights:endpoints"
+  },
+  {
+   "label": "EC2 Resource Health",
+   "path": "/cloudwatch/home#resource-health:ec2/map"
+  },
+  {
+   "label": "Log Management",
+   "path": "/cloudwatch/home#logsV2:log-groups"
+  },
+  {
+   "label": "Log Analytics",
+   "path": "/cloudwatch/home#log-analytics"
+  },
+  {
+   "label": "Log Anomalies",
+   "path": "/cloudwatch/home#logsV2:logs-anomalies"
+  },
+  {
+   "label": "Query Studio",
+   "path": "/cloudwatch/home#query-studio"
+  },
+  {
+   "label": "Classic metrics",
+   "path": "/cloudwatch/home#metricsV2"
+  },
+  {
+   "label": "Explorer",
+   "path": "/cloudwatch/home#explorer"
+  },
+  {
+   "label": "Streams",
+   "path": "/cloudwatch/home#metric-streams:streams"
+  },
+  {
+   "label": "Flow monitors",
+   "path": "/cloudwatch/home#network-flow-monitor:"
+  },
+  {
+   "label": "Internet monitors",
+   "path": "/cloudwatch/home#internet-monitor:"
+  },
+  {
+   "label": "Synthetic monitors",
+   "path": "/cloudwatch/home#network-monitor:"
+  },
+  {
+   "label": "Settings",
+   "path": "/cloudwatch/home#settings:"
+  }
+ ]
+}

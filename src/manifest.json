@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "AWS Cross-Account Favorites",
+  "version": "0.1.0",
+  "description": "A consistent, cross-account favorites bar for the AWS Management Console, synced across devices.",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://*.console.aws.amazon.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.console.aws.amazon.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "128": "icon128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "aws-cross-account-favorites@local",
+      "strict_min_version": "128.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  }
+}

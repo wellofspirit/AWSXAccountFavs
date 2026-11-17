@@ -1,0 +1,18 @@
+{
+  "name": "aws-cross-account-favorites",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bun run build.ts",
+    "test": "bun test",
+    "lint:firefox": "bunx web-ext@8.10.0 lint --source-dir dist",
+    "sign:firefox": "bunx web-ext@8.10.0 sign --channel=unlisted --source-dir dist --artifacts-dir web-ext-artifacts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.14",
+    "@types/chrome": "^0.0.268",
+    "typescript": "^5.5.0"
+  },
+  "license": "Apache-2.0"
+}
